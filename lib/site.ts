@@ -9,7 +9,7 @@ export const SITE = {
   linkedin: 'https://linkedin.com/in/manika-gupta-672790231',
   ciHub: 'https://gotomarketaiinsight.com',
   location: 'Gurugram, India',
-  calLink: process.env.NEXT_PUBLIC_CAL_LINK ?? '', // e.g. "manika-gupta/gtm-diagnostic"
+  calLink: process.env.NEXT_PUBLIC_CAL_LINK || 'manika-gupta-gtmology', // e.g. "manika-gupta/gtm-diagnostic"
 };
 
 // Track record, stated without figures (by choice: no numbers are quoted on the site).
