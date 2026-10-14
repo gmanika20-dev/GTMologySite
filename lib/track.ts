@@ -1,6 +1,6 @@
 // Ad + analytics tracking helpers. Scripts only load after the visitor consents (see components/Consent.tsx).
 export const TRACKING = {
-  ga: process.env.NEXT_PUBLIC_GA_ID ?? '',                       // e.g. G-XXXXXXXXXX
+  ga: process.env.NEXT_PUBLIC_GA_ID || 'G-26RQ1F7MMS',                       // e.g. G-XXXXXXXXXX
   meta: process.env.NEXT_PUBLIC_META_PIXEL_ID ?? '',              // e.g. 123456789012345
   linkedin: process.env.NEXT_PUBLIC_LINKEDIN_PARTNER_ID || '10211124',    // e.g. 1234567
   linkedinLeadConversion: process.env.NEXT_PUBLIC_LINKEDIN_CONVERSION_ID ?? '', // optional conversion id
