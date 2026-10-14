@@ -73,7 +73,7 @@ export default function Consent() {
             <div className="consent-prefs">
               <label><input type="checkbox" checked disabled /> Essential <span>Always on: keeps the site working</span></label>
               <label><input type="checkbox" checked={analytics} onChange={(e) => setAnalytics(e.target.checked)} /> Analytics <span>Google Analytics: anonymised usage stats</span></label>
-              <label><input type="checkbox" checked={marketing} onChange={(e) => setMarketing(e.target.checked)} /> Marketing <span>LinkedIn &amp; Meta: ad measurement</span></label>
+              <label><input type="checkbox" checked={marketing} onChange={(e) => setMarketing(e.target.checked)} /> Marketing <span>LinkedIn: ad measurement</span></label>
             </div>
           )}
         </div>

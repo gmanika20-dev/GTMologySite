@@ -28,11 +28,11 @@ export default function Privacy() {
         <p>Essential storage keeps the site working (for example, remembering your cookie choice and your progress in the free GTM check). With your consent we also use:</p>
         <ul>
           <li><strong>Analytics:</strong> Google Analytics 4, to understand how the site is used (IP addresses anonymised).</li>
-          <li><strong>Marketing:</strong> the LinkedIn Insight Tag and Meta Pixel, to measure how our ads perform.</li>
+          <li><strong>Marketing:</strong> the LinkedIn Insight Tag, to measure how our ads perform.</li>
         </ul>
         <p>Nothing non-essential loads until you choose &ldquo;Accept&rdquo; or turn a category on in Preferences. You can change or withdraw consent at any time via &ldquo;Cookie settings&rdquo; in the footer.</p>
         <h2>Service providers</h2>
-        <p>We use trusted processors to run the site: Vercel (hosting), Supabase (database), Resend (email), Cal.com (scheduling), and, only with your consent, Google Analytics, LinkedIn and Meta (analytics and ad measurement). Some providers process data outside India under their own safeguards. They process data only on our instructions.</p>
+        <p>We use trusted processors to run the site: Vercel (hosting), Supabase (database), Resend (email), Cal.com (scheduling), and, only with your consent, Google Analytics and LinkedIn (analytics and ad measurement). Some providers process data outside India under their own safeguards. They process data only on our instructions.</p>
         <h2>Retention</h2>
         <p>Incomplete GTM health checks are anonymised after 12 months. Leads are kept until you unsubscribe or ask for deletion. Client contracts and bookings are kept for 7 years for legal and financial purposes.</p>
         <h2>Your rights</h2>
