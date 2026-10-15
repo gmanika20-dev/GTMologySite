@@ -10,10 +10,6 @@ const securityHeaders = [
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  async redirects() {
-    // one canonical address: gtmologyai.com → www.gtmologyai.com (keeps SEO signals on a single host)
-    return [{ source: '/:path*', has: [{ type: 'host', value: 'gtmologyai.com' }], destination: 'https://www.gtmologyai.com/:path*', permanent: true }];
-  },
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
   },
