@@ -1,6 +1,6 @@
 // Site-wide facts. Keep the wording identical to LinkedIn and directory profiles (GEO entity consistency).
 export const SITE = {
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://gtmologyai.com').replace(/\/$/, ''),
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.gtmologyai.com').replace(/\/$/, ''),
   name: 'GTMology',
   tagline: 'Go-to-market consulting for B2B SaaS & fintech',
   description:

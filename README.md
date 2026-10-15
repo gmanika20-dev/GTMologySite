@@ -1,4 +1,4 @@
-# GTMology — gtmologyai.com
+# GTMology — www.gtmologyai.com
 
 Next.js 16 site for GTMology: the immersive "GTMology Lab" diagnostic, 11 service pages, Lab Notes, booking, and a pre-filled contract PDF. Built to the Step 1 planning documents and Step 2 content standard (SEO · GEO · AEO · AAO).
 
