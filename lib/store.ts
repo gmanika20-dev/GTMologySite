@@ -5,8 +5,19 @@ import path from 'node:path';
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 
 let sb: SupabaseClient | null = null;
+// Accepts common paste mistakes: spaces, quotes, a missing https://, or just the project ref.
+function supabaseUrl() {
+  const raw = (process.env.SUPABASE_URL ?? '').trim().replace(/^["']|["']$/g, '').replace(/\/+$/, '');
+  if (!raw) return '';
+  if (/^https?:\/\//i.test(raw)) return raw;
+  if (/^[a-z0-9]{15,30}$/i.test(raw)) return `https://${raw}.supabase.co`;
+  if (raw.includes('.supabase.co')) return `https://${raw}`;
+  console.error(`[store] SUPABASE_URL looks wrong (length ${raw.length}, starts "${raw.slice(0, 4)}…"). Expected https://<project>.supabase.co`);
+  return '';
+}
+
 function supabase() {
-  const url = process.env.SUPABASE_URL, key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const url = supabaseUrl(), key = (process.env.SUPABASE_SERVICE_ROLE_KEY ?? '').trim().replace(/^["']|["']$/g, '');
   if (!url || !key) return null;
   sb = sb ?? createClient(url, key, { auth: { persistSession: false } });
   return sb;
