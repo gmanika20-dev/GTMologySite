@@ -33,7 +33,7 @@ export const GROUPS = ['Strategy', 'Marketing', 'Sales', 'Digital & AI'] as cons
 
 export const FORMULAS = [
   { name: 'GTM Clarity Sprint', line: 'Know exactly who to sell to, what to say and how to win.', symbols: ['Dx', 'Ci', 'Au', 'Po', 'Bv'] },
-  { name: 'Pipeline Growth System', line: 'Turn marketing spend into qualified, measurable pipeline.', symbols: ['Dg', 'Cs', 'Wo', 'Pa', 'Lr'] },
+  { name: 'Pipeline Growth System', line: 'Turn marketing spend into qualified, measurable pipeline.', symbols: ['Dg', 'Cs', 'Wo', 'Ev', 'Pa', 'Lr'] },
   { name: 'Launch & Sales Readiness', line: 'Launch new products with one story, and give sales what it needs to win.', symbols: ['Pl', 'Se', 'Ci'] },
   { name: 'AI Marketing Transformation', line: 'Stop using AI just to write content. Use it to redesign your marketing operation.', symbols: ['Ge', 'Ag'] },
 ];
@@ -67,6 +67,7 @@ export const PRACTICES: Practice[] = [
       { slug: 'content-strategy', line: 'Plan content that buyers search for, read and share with their buying team.' },
       { slug: 'website-optimization', line: 'Get found on Google and in AI answers, and turn more visits into demo requests.' },
       { slug: 'marketing-performance-analytics', line: 'See which channels and campaigns create pipeline, and allocate budget to what works.' },
+      { slug: 'event-marketing', line: 'Plan, run and follow up on events end to end, from brief and vendors to lead routing and pipeline reporting.' },
     ],
   },
   {
