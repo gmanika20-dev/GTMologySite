@@ -705,3 +705,4 @@ ol.stages { padding: 0; margin: 0; }
 .viz-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
 @media (max-width: 640px) { .prose figure.viz { margin: 32px -6px; padding: 14px; } }
 .insight-group { scroll-margin-top: 80px; }
+.practice-tile { color: var(--ink); text-decoration: none; transition: border-color .3s, transform .4s var(--ease); } .practice-tile:hover { border-color: var(--c, var(--accent)); transform: translateY(-3px); }
