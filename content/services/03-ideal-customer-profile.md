@@ -1,5 +1,5 @@
 ---
-element: { no: "03", symbol: "Au", name: "Audience & ICP", group: "Strategy & Intelligence" }
+element: { no: "03", symbol: "Au", name: "Market Segmentation & ICP", group: "Strategy" }
 url: /services/ideal-customer-profile
 formula: GTM Clarity Sprint
 seo_title: "Ideal Customer Profile (ICP) & Buyer Personas | Dominize"

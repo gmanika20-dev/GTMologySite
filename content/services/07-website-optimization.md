@@ -1,5 +1,5 @@
 ---
-element: { no: "07", symbol: "Wo", name: "Website Optimization", group: "Growth" }
+element: { no: "07", symbol: "Wo", name: "Website Conversion & Search", group: "Marketing" }
 url: /services/website-optimization
 formula: Pipeline Growth System
 seo_title: "B2B Website Optimization: SEO, GEO & CRO | Dominize"

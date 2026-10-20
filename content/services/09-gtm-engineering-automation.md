@@ -1,5 +1,5 @@
 ---
-element: { no: "09", symbol: "Ge", name: "GTM Engineering", group: "AI & Engineering" }
+element: { no: "09", symbol: "Ge", name: "GTM Engineering & Automation", group: "Digital & AI" }
 url: /services/gtm-engineering-automation
 formula: AI Marketing Transformation
 seo_title: "GTM Engineering & Marketing Automation | Dominize"

@@ -17,11 +17,11 @@ export default function Footer() {
           </div>
           <div>
             <h2>Services</h2>
-            <ul>{services.slice(0, 6).map((s) => <li key={s.slug}><Link href={`/services/${s.slug}`}>{s.question}</Link></li>)}</ul>
+            <ul>{services.slice(0, Math.ceil(services.length / 2)).map((s) => <li key={s.slug}><Link href={`/services/${s.slug}`}>{s.question}</Link></li>)}</ul>
           </div>
           <div>
             <h2>More services</h2>
-            <ul>{services.slice(6).map((s) => <li key={s.slug}><Link href={`/services/${s.slug}`}>{s.question}</Link></li>)}</ul>
+            <ul>{services.slice(Math.ceil(services.length / 2)).map((s) => <li key={s.slug}><Link href={`/services/${s.slug}`}>{s.question}</Link></li>)}</ul>
           </div>
           <div>
             <h2>Get started</h2>

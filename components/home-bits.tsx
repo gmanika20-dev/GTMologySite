@@ -72,10 +72,10 @@ export function PeriodicTable({ services, formulas }: { services: ElementInfo[];
         </a>
       </div>
       <div className="legend" aria-hidden="true">
-        <span><i style={{ background: 'var(--accent)' }} />Strategy &amp; Intelligence</span>
-        <span><i style={{ background: 'var(--info)' }} />Growth</span>
-        <span><i style={{ background: 'var(--slate)' }} />AI &amp; Engineering</span>
-        <span><i style={{ background: 'var(--warn)' }} />Build</span>
+        <span><i style={{ background: 'var(--accent)' }} />Strategy</span>
+        <span><i style={{ background: 'var(--info)' }} />Marketing</span>
+        <span><i style={{ background: 'var(--slate)' }} />Digital &amp; AI</span>
+        <span><i style={{ background: 'var(--accent-2)' }} />Sales</span>
       </div>
     </div>
   );

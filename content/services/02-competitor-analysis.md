@@ -1,5 +1,5 @@
 ---
-element: { no: "02", symbol: "Ci", name: "Competitive Intelligence", group: "Strategy & Intelligence" }
+element: { no: "02", symbol: "Ci", name: "Competitive Intelligence", group: "Strategy" }
 url: /services/competitor-analysis
 formula: GTM Clarity Sprint
 seo_title: "Competitive Intelligence for B2B SaaS & Fintech | Dominize"

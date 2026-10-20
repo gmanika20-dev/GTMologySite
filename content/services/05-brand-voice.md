@@ -1,5 +1,5 @@
 ---
-element: { no: "05", symbol: "Bv", name: "Brand Voice", group: "Strategy & Intelligence" }
+element: { no: "05", symbol: "Bv", name: "Messaging & Brand Voice", group: "Strategy" }
 url: /services/brand-voice
 formula: GTM Clarity Sprint
 seo_title: "B2B Brand Voice & Tone Guidelines | Dominize"

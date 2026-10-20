@@ -1,5 +1,5 @@
 ---
-element: { no: "11", symbol: "Wb", name: "Website Build", group: "Build" }
+element: { no: "11", symbol: "Wb", name: "Website Design & Development", group: "Digital & AI" }
 url: /services/website-design-development
 formula: Standalone
 seo_title: "B2B Website Design & Development | Dominize"

@@ -1,5 +1,5 @@
 ---
-element: { no: "06", symbol: "Cs", name: "Content Strategy", group: "Growth" }
+element: { no: "06", symbol: "Cs", name: "Content & Thought Leadership", group: "Marketing" }
 url: /services/content-strategy
 formula: Pipeline Growth System
 seo_title: "B2B Content Strategy for SaaS & Fintech | Dominize"

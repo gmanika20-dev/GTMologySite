@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { getServices, getInsights } from '@/lib/content';
-import { KNOWN_FOR, FORMULAS, SITE } from '@/lib/site';
+import { KNOWN_FOR, FORMULAS, PRACTICES, SITE } from '@/lib/site';
 import { FaqList, JsonLd, Lines } from '@/components/ui';
-import { ChainStory, PeriodicTable } from '@/components/home-bits';
+import { ChainStory } from '@/components/home-bits';
 import { faqSchema } from '@/lib/schema';
 import Icon from '@/components/icons';
 import { HeroEngine, Ticker, StepsTimeline } from '@/components/visuals';
@@ -26,7 +26,6 @@ const HOME_FAQS = [
 
 const SYMPTOM_ICONS = ['target', 'megaphone', 'funnel', 'compass', 'clock'];
 const KNOWN_ICONS = ['globe', 'growth', 'search', 'compass'];
-const FORMULA_ICONS = ['target', 'growth', 'bot'];
 const POST_ICONS = ['layers', 'bot', 'users'];
 const WAYS = [
   ['One-time project', 'A defined project with a clear deliverable. Best for a launch, a repositioning or a website.', 'flag'],
@@ -40,7 +39,7 @@ const STEPS = [
 
 export default function Home() {
   const all = getServices();
-  const services = all.map(({ slug, element, question }) => ({ slug, element, question }));
+  const bySlug = Object.fromEntries(all.map((s) => [s.slug, s]));
   const insights = getInsights().slice(0, 3);
 
   return (
@@ -138,29 +137,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* S7 — Services */}
+      {/* S7 — Services: practice areas */}
       <section className="section" aria-labelledby="elements">
         <div className="wrap stack">
           <div className="chapter-head">
             <span className="chapter" aria-hidden="true">02</span>
             <div className="stack">
-              <p className="eyebrow" data-reveal>Services</p>
-              <h2 id="elements" className="h2" data-reveal>Eleven services. Three packages. <em>One growth engine.</em></h2>
-              <p className="lede" data-reveal>Hover a service to see the problem it solves. Filter by package to see how they work together.</p>
+              <h2 id="elements" className="h2" data-reveal>Every lever of growth, <em>in one partner.</em></h2>
+              <p className="lede" data-reveal>Four practice areas cover your whole go-to-market, from the customers you target to the systems that scale it.</p>
             </div>
           </div>
-          <div data-reveal style={{ marginTop: 32 }}><PeriodicTable services={services} formulas={FORMULAS} /></div>
-          <div className="formulas" style={{ marginTop: 40 }}>
-            {FORMULAS.map((f, i) => (
-              <article key={f.name} className={`card formula${i === 1 ? ' feature' : ''}`} data-reveal>
-                <span className="ico-wrap"><Icon name={FORMULA_ICONS[i]} /></span>
-                <h3 className="h3">{f.name}</h3>
-                <p>{f.line}</p>
-                <div className="syms" aria-label={`Elements: ${f.symbols.join(', ')}`}>{f.symbols.map((s) => <span key={s}>{s}</span>)}</div>
+          <div className="practice-cards" style={{ marginTop: 32 }}>
+            {PRACTICES.map((p) => (
+              <article key={p.id} className="card practice-card" data-group={p.group} data-reveal>
+                <span className="ico-wrap"><Icon name={p.icon} /></span>
+                <h3 className="h3">{p.title}</h3>
+                <p>{p.promise}</p>
+                <ul>
+                  {p.capabilities.map((c) => bySlug[c.slug] && <li key={c.slug + (c.name ?? '')}><Link href={`/services/${c.slug}`}>{c.name ?? bySlug[c.slug].element.name}</Link></li>)}
+                </ul>
+                <Link href={`/services#${p.id}`} className="go">Explore this area <span className="arrow">→</span></Link>
               </article>
             ))}
           </div>
-          <div data-reveal style={{ marginTop: 24 }}><Link href="/services" className="btn btn-ghost">Explore all services <span className="arrow">→</span></Link></div>
+          <div data-reveal style={{ marginTop: 24 }} className="cta-row"><Link href="/services" className="btn btn-primary">See all services <span className="arrow">→</span></Link><Link href="/lab" className="btn btn-ghost">Not sure? Take the free GTM check</Link></div>
         </div>
       </section>
 

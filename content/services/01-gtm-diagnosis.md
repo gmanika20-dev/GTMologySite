@@ -1,5 +1,5 @@
 ---
-element: { no: "01", symbol: "Dx", name: "GTM Diagnosis", group: "Strategy & Intelligence" }
+element: { no: "01", symbol: "Dx", name: "GTM Diagnostic", group: "Strategy" }
 url: /services/gtm-diagnosis
 formula: Start here
 seo_title: "GTM Diagnostic & Go-to-Market Audit | Dominize"

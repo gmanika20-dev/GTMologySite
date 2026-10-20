@@ -29,7 +29,7 @@ const P: Record<string, string[]> = {
 };
 
 // Map service symbols and other content to icons
-export const SERVICE_ICON: Record<string, string> = { Dx: 'search', Ci: 'compass', Au: 'users', Po: 'target', Bv: 'voice', Cs: 'pen', Wo: 'window', Pa: 'chart', Ge: 'bolt', Ag: 'bot', Wb: 'globe' };
+export const SERVICE_ICON: Record<string, string> = { Dx: 'search', Ci: 'compass', Au: 'users', Po: 'target', Bv: 'voice', Cs: 'pen', Wo: 'window', Pa: 'chart', Ge: 'bolt', Ag: 'bot', Wb: 'globe', Pl: 'rocket', Dg: 'megaphone', Se: 'handshake', Lr: 'repeat' };
 
 export default function Icon({ name, size = 28, className = '' }: { name: string; size?: number; className?: string }) {
   const paths = P[name] ?? P.spark;

@@ -1,5 +1,5 @@
 ---
-element: { no: "10", symbol: "Ag", name: "AI Marketing Agent", group: "AI & Engineering" }
+element: { no: "10", symbol: "Ag", name: "AI Agents for Marketing & Sales", group: "Digital & AI" }
 url: /services/ai-marketing-agents
 formula: AI Marketing Transformation
 seo_title: "Custom AI Agents for Marketing Teams | Dominize"

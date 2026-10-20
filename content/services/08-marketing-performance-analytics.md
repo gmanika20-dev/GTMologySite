@@ -1,5 +1,5 @@
 ---
-element: { no: "08", symbol: "Pa", name: "Performance Analytics", group: "Growth" }
+element: { no: "08", symbol: "Pa", name: "Marketing Performance Analytics", group: "Marketing" }
 url: /services/marketing-performance-analytics
 formula: Pipeline Growth System
 seo_title: "Marketing Analytics & Funnel Dashboards | Dominize"

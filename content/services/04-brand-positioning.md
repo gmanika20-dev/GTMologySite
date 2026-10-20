@@ -1,5 +1,5 @@
 ---
-element: { no: "04", symbol: "Po", name: "Positioning", group: "Strategy & Intelligence" }
+element: { no: "04", symbol: "Po", name: "Value Proposition & Positioning", group: "Strategy" }
 url: /services/brand-positioning
 formula: GTM Clarity Sprint
 seo_title: "B2B Positioning Strategy & Messaging Framework | Dominize"
