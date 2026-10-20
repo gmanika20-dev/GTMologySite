@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | A clear view of who you compete with, where they are weak, and battle cards that help sales win |
 | **Typical timeline** | 2–3 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Losing deals to a competitor you barely track
@@ -79,4 +79,4 @@ Public sources (websites, reviews, pricing pages, job posts, search data) combin
 ### Can my team run it themselves later?
 Yes. The AI research workflow can be handed over or hosted for you.
 
-**CTA:** Book a GTM Diagnostic → · Try the CI Hub free
+**CTA:** Book a Growth Strategy Call → · Try the CI Hub free

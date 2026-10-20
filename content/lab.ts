@@ -1,4 +1,4 @@
-// Free GTM health check — questions, weights, insights and plan rules.
+// Free GTM Scorecard — questions, weights, insights and plan rules.
 // Edit this file to change any question, answer, insight or weight.
 
 export type SystemCode = 'ICP' | 'POS' | 'DEM' | 'CON' | 'SEN' | 'OPS';

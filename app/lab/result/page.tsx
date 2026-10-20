@@ -5,7 +5,7 @@ import { QUESTIONS, SYSTEMS } from '@/content/lab';
 import { score, band, buildFormulas } from '@/lib/lab-engine';
 import { getServices } from '@/lib/content';
 
-export const metadata: Metadata = { title: 'Your GTM Health Check Results | Dominize', robots: { index: false, follow: true } };
+export const metadata: Metadata = { title: 'Your GTM Scorecard Results | Dominize', robots: { index: false, follow: true } };
 
 export default async function LabResult({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {
   const sp = await searchParams;
@@ -32,7 +32,7 @@ export default async function LabResult({ searchParams }: { searchParams: Promis
         <h2 className="h3" style={{ marginTop: 24 }}>What success looks like</h2>
         <p className="muted">{SYSTEMS[r.primary].success}</p>
         <div className="cta-row" style={{ marginTop: 24 }}>
-          <Link href={`/book?service=${names[f.elements.find((e) => e !== 'Dx') ?? 'Dx']?.slug ?? 'gtm-diagnosis'}`} className="btn btn-primary">Book a GTM Diagnostic →</Link>
+          <Link href={`/book?service=${names[f.elements.find((e) => e !== 'Dx') ?? 'Dx']?.slug ?? 'gtm-diagnosis'}`} className="btn btn-primary">Book a Growth Strategy Call →</Link>
           <Link href="/lab" className="btn btn-ghost">Try the interactive version</Link>
         </div>
       </div>

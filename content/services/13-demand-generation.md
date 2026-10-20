@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | An integrated campaign plan, a budget allocation model and campaigns measured against pipeline |
 | **Typical timeline** | 2–3 weeks to plan, then ongoing optimisation |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Plenty of leads, but sales says few of them are real
@@ -78,4 +78,4 @@ Both. We can run campaigns on a retainer, or plan them and guide your team or ag
 ### How do you decide where the budget goes?
 We set performance benchmarks for each campaign and move spend towards what creates qualified pipeline, reviewing it on a regular cycle.
 
-**CTA:** Book a GTM Diagnostic → · Take the free GTM check
+**CTA:** Book a Growth Strategy Call → · Get your free GTM Scorecard

@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | Automated GTM workflows that give your team hours back every week and speed up lead response |
 | **Typical timeline** | 3–4 weeks, then ongoing |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - People copying data between the CRM, spreadsheets and tools by hand
@@ -79,4 +79,4 @@ Retainers include monitoring and fixes.
 ### Do we need technical staff to run the automations?
 No. We hand over no-code-friendly workflows and runbooks.
 
-**CTA:** Explore AI Marketing Transformation → · Take the free GTM check
+**CTA:** Explore AI Marketing Transformation → · Get your free GTM Scorecard

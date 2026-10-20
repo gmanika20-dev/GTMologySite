@@ -25,7 +25,7 @@ export default function Header() {
   return (
     <header className={`site-header${scrolled || open ? ' scrolled' : ''}`}>
       <div className="wrap">
-        <Link href="/" className="logo" aria-label="Dominize Consultancy home"><Logo /> Dominize</Link>
+        <Link href="/" className="logo" aria-label="Dominize with Manika Gupta, home"><Logo /><span className="logo-text">Dominize<small>with Manika Gupta</small></span></Link>
         <nav className="nav" aria-label="Main">
           {NAV.map((n) => (
             <Link key={n.href} href={n.href} aria-current={pathname.startsWith(n.href) ? 'page' : undefined}>{n.label}</Link>
@@ -39,7 +39,7 @@ export default function Header() {
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M4 9v6h4l5 4V5L8 9H4z" /><path d="M17 9l5 6M22 9l-5 6" /></svg>
             )}
           </button>
-          <Link href="/book" className="btn btn-primary btn-sm header-cta">Book a GTM Diagnostic <span className="arrow">→</span></Link>
+          <Link href="/book" className="btn btn-primary btn-sm header-cta">Book a Growth Strategy Call <span className="arrow">→</span></Link>
           <button className="icon-btn menu-btn" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="mobile-menu" aria-label={open ? 'Close menu' : 'Open menu'}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">{open ? <path d="M6 6l12 12M18 6L6 18" /> : <path d="M4 8h16M4 16h16" />}</svg>
           </button>
@@ -48,7 +48,7 @@ export default function Header() {
       {open && (
         <div className="mobile-menu" id="mobile-menu">
           {NAV.map((n) => <Link key={n.href} href={n.href}>{n.label}</Link>)}
-          <Link href="/book" className="btn btn-primary">Book a GTM Diagnostic →</Link>
+          <Link href="/book" className="btn btn-primary">Book a Growth Strategy Call →</Link>
         </div>
       )}
     </header>

@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | One trusted funnel view showing where pipeline leaks and which spend creates revenue |
 | **Typical timeline** | 2–3 weeks, then monthly |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Monthly reports full of clicks and impressions, but no line to revenue
@@ -79,4 +79,4 @@ No. We start with what exists and fix as we go.
 ### Can marketing reporting be automated?
 Yes. Recurring reports can run themselves (see Ge).
 
-**CTA:** Audit my funnel → · Take the free GTM check
+**CTA:** Audit my funnel → · Get your free GTM Scorecard

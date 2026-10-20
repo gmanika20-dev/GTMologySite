@@ -35,7 +35,7 @@ export async function POST(req: Request) {
     const id = await insert('bookings', { lead_id: leadId, session_id: b.sessionId ?? null, status: 'requested', service: b.service ?? null, problem: b.problem, preferred_times: b.times, source: 'site-form' });
     await Promise.all([
       sendBookingThankYou({ to: b.email, name: b.name.split(' ')[0], diagnosis: b.diagnosis }),
-      sendOwnerAlert(`🧪 New GTM Diagnostic request: ${b.company || b.name}${b.diagnosis?.primary ? ` · ${b.diagnosis.primary}` : ''}`, { name: b.name, email: b.email, company: b.company, website: b.website, role: b.role, service: b.service, problem: b.problem, preferred_times: b.times, diagnosis: b.diagnosis, booking_id: id }),
+      sendOwnerAlert(`🧪 New Growth Strategy Call request: ${b.company || b.name}${b.diagnosis?.primary ? ` · ${b.diagnosis.primary}` : ''}`, { name: b.name, email: b.email, company: b.company, website: b.website, role: b.role, service: b.service, problem: b.problem, preferred_times: b.times, diagnosis: b.diagnosis, booking_id: id }),
     ]);
     return NextResponse.json({ ok: true, id });
   } catch (e) {

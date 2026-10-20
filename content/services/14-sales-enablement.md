@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | A sales kit that reps actually use, aligned with marketing's message and kept up to date |
 | **Typical timeline** | 2–4 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Every rep pitching the product differently
@@ -78,4 +78,4 @@ Yes. Every engagement includes a working session with the team, so the materials
 ### Can you use AI to keep enablement content current?
 Yes, as an added capability. We can set up AI-assisted research and alerts that flag competitor changes, so battle cards stay up to date.
 
-**CTA:** Book a GTM Diagnostic → · Take the free GTM check
+**CTA:** Book a Growth Strategy Call → · Get your free GTM Scorecard

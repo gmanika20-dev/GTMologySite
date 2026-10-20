@@ -25,7 +25,7 @@ ${body}
 export type Diagnosis = { primary?: string; scores?: Record<string, number>; formula?: { name: string; elements: string[]; model: string } };
 
 const diagHtml = (d?: Diagnosis) => !d?.scores ? '' : `
-<h3 style="color:#7a1f2b;font-size:13px;letter-spacing:2px;text-transform:uppercase">Your GTM health check</h3>
+<h3 style="color:#7a1f2b;font-size:13px;letter-spacing:2px;text-transform:uppercase">Your GTM Scorecard</h3>
 <p>Primary issue: <b>${esc(d.primary)}</b></p>
 <table style="width:100%;border-collapse:collapse;font-size:14px">${Object.entries(d.scores).map(([k, v]) => `<tr><td style="padding:6px 0;border-bottom:1px solid #e2e5eb">${esc(k)}</td><td style="text-align:right;border-bottom:1px solid #e2e5eb">${v}/100</td></tr>`).join('')}</table>
 ${d.formula ? `<p style="margin-top:16px">Your plan: <b>${esc(d.formula.name)}</b> (${esc(d.formula.elements.join(' + '))}), ${esc(d.formula.model)}</p>` : ''}`;
@@ -33,20 +33,20 @@ ${d.formula ? `<p style="margin-top:16px">Your plan: <b>${esc(d.formula.name)}</
 export async function sendBookingThankYou(p: { to: string; name: string; when?: string; diagnosis?: Diagnosis }) {
   return send(p.to, `You're booked, ${p.name}. Here's what happens next`, shell(`
 <p>Hi ${esc(p.name)},</p>
-<p>Thank you for booking your GTM Diagnostic. I'm looking forward to it.</p>
+<p>Thank you for booking your Growth Strategy Call. I'm looking forward to it.</p>
 ${p.when ? `<p><b>Your session:</b> ${esc(p.when)} · 30 minutes</p>` : `<p>I'll confirm a time with you within 1 business day.</p>`}
 ${diagHtml(p.diagnosis)}
 <h3 style="color:#7a1f2b;font-size:13px;letter-spacing:2px;text-transform:uppercase">Before we meet</h3>
 <ul style="line-height:1.7"><li>Your current pitch deck or one-pager</li><li>Your website and your top 3 competitors</li><li>Last quarter's rough funnel numbers: traffic → leads → opportunities</li><li>Your 5 best customers, and why they're the best</li></ul>
-<p>If you chose a plan in the GTM health check, your contract draft was available to download there. There's no need to sign before we talk. We'll review it together.</p>
+<p>If you chose a plan in the GTM Scorecard, your contract draft was available to download there. There's no need to sign before we talk. We'll review it together.</p>
 <p>Speak soon,<br>Manika</p>`));
 }
 
 export async function sendDiagnosisCopy(p: { to: string; name: string; diagnosis: Diagnosis }) {
   return send(p.to, `Your GTM diagnosis, ${p.name}`, shell(`
-<p>Hi ${esc(p.name)},</p><p>Here are your GTM health check results, as promised. Feel free to share them with your team.</p>
+<p>Hi ${esc(p.name)},</p><p>Here are your GTM Scorecard results, as promised. Feel free to share them with your team.</p>
 ${diagHtml(p.diagnosis)}
-<p style="margin-top:24px"><a href="${SITE.url}/book" style="background:#7a1f2b;color:#ffffff;padding:12px 20px;border-radius:999px;text-decoration:none;font-weight:bold">Book a GTM Diagnostic →</a></p>
+<p style="margin-top:24px"><a href="${SITE.url}/book" style="background:#7a1f2b;color:#ffffff;padding:12px 20px;border-radius:999px;text-decoration:none;font-weight:bold">Book a Growth Strategy Call →</a></p>
 <p>When you're ready to talk, I'll already have your results.<br>— Manika</p>`));
 }
 

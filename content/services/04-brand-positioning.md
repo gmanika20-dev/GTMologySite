@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | A positioning statement and messaging architecture that buyers understand and sales can repeat |
 | **Typical timeline** | 3–4 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Your homepage could be swapped with a competitor's and nobody would notice
@@ -79,4 +79,4 @@ Through buyer interviews, message testing on LinkedIn ads and landing-page A/B t
 ### Does positioning work include website copy?
 Direction is included. Full copy is an add-on, or part of Wb/Wo.
 
-**CTA:** Book a GTM Diagnostic → · Take the free GTM check
+**CTA:** Book a Growth Strategy Call → · Get your free GTM Scorecard

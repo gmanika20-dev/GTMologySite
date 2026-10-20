@@ -14,7 +14,7 @@ export default async function ThankYou({ searchParams }: { searchParams: Promise
       <div className="wrap stack" style={{ maxWidth: 860 }}>
         <p className="eyebrow">Confirmed</p>
         <h1 className="h1">{name ? `Thank you, ${name}. ` : ''}You&rsquo;re booked. <em>Let&rsquo;s get your growth moving.</em></h1>
-        <p className="lede">A confirmation is on its way to your inbox with your next steps and, if you took the free GTM check, your results summary.</p>
+        <p className="lede">A confirmation is on its way to your inbox with your next steps and, if you took the free GTM Scorecard, your results summary.</p>
         <article className="card" style={{ marginTop: 24 }}>
           <span className="num">BEFORE WE MEET</span>
           <ul className="check" style={{ marginTop: 12 }}>

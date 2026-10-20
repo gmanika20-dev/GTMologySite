@@ -6,8 +6,8 @@ import { getService } from '@/lib/content';
 import { SITE } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Book a GTM Diagnostic | Dominize',
-  description: "Book a 30-minute GTM Diagnostic with Manika Gupta. We'll look at your ICP, positioning, funnel and operations, and you'll leave knowing what to fix first.",
+  title: 'Book a Growth Strategy Call | Dominize',
+  description: "Book a free 30-minute Growth Strategy Call with Manika Gupta. We'll look at your ICP, positioning, funnel and operations, and you'll leave knowing what to fix first.",
   alternates: { canonical: '/book' },
 };
 
@@ -20,7 +20,7 @@ export default async function Book({ searchParams }: { searchParams: Promise<Rec
       <section className="svc-hero">
         <div className="wrap grid-2" style={{ alignItems: 'start' }}>
           <div className="stack">
-            <h1 className="h1">Book your <em>GTM Diagnostic.</em></h1>
+            <h1 className="h1">Book your <em>Growth Strategy Call.</em></h1>
             {service && <p className="micro">TOPIC: {service.element.symbol} · {service.question}</p>}
           </div>
           <div><BookForm calLink={SITE.calLink || undefined} service={service?.element.name} /></div>

@@ -75,4 +75,4 @@ Start with one recurring, time-consuming, well-understood job. Map how a skilled
 **Manika Gupta** is the founder of Dominize Consultancy, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
 
 ---
-**Where would AI save your team the most time?** The free GTM health check scores your operations and automation maturity alongside five other GTM systems. → [Take the free GTM check](/lab) · or see [AI marketing agents](/services/ai-marketing-agents)
+**Where would AI save your team the most time?** The free GTM Scorecard scores your operations and automation maturity alongside five other GTM systems. → [Get your free GTM Scorecard](/lab) · or see [AI marketing agents](/services/ai-marketing-agents)

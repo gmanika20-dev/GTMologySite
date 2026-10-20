@@ -13,7 +13,7 @@ export function GET() {
       question: s.question, summary: s.inShort,
       who_it_is_for: g["Who it's for"], outcome: g['Outcome'], typical_timeline: g['Typical timeline'],
       deliverables, engagement_models: ['one-time project', 'monthly retainer', 'annual contract'],
-      pricing: 'Scoped per engagement; tailored proposal after a GTM Diagnostic (not published).',
+      pricing: 'Scoped per engagement; tailored proposal after a Growth Strategy Call (not published).',
       url: `${SITE.url}/services/${s.slug}`, book_url: `${SITE.url}/book?service=${s.slug}`,
     };
   });

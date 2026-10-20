@@ -68,7 +68,7 @@ export function PeriodicTable({ services, formulas }: { services: ElementInfo[];
         {services.map((s) => <ElementTile key={s.slug} s={s} dim={!active(s)} />)}
         <a href="/lab" className="el" data-tilt style={{ ['--c' as string]: 'var(--ink)', borderStyle: 'dashed' }}>
           <span className="top"><span>??</span><span>Unknown</span></span>
-          <span><span className="sym" aria-hidden="true">?</span><span className="nm">Not sure which?</span><span className="q">Take the free GTM check →</span></span>
+          <span><span className="sym" aria-hidden="true">?</span><span className="nm">Not sure which?</span><span className="q">Get your free GTM Scorecard →</span></span>
         </a>
       </div>
       <div className="legend" aria-hidden="true">

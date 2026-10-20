@@ -76,7 +76,7 @@ export default function About() {
               </p>
             </div>
             <div className="cta-row">
-              <Link href="/book" className="btn btn-primary">Book a GTM Diagnostic <span className="arrow">→</span></Link>
+              <Link href="/book" className="btn btn-primary">Book a Growth Strategy Call <span className="arrow">→</span></Link>
               <a href={SITE.linkedin} className="btn btn-ghost" target="_blank" rel="me noopener">Connect on LinkedIn</a>
             </div>
           </article>

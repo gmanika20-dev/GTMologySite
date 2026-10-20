@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | More demo requests from the same traffic, plus better visibility in search and AI answers |
 | **Typical timeline** | 3 weeks (audit and quick wins), then ongoing |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Good traffic, but almost no demo requests
@@ -77,4 +77,4 @@ For implementation, yes. The audit only needs analytics access.
 ### What if the site needs a full rebuild?
 We'll tell you honestly. See Wb, Create my website.
 
-**CTA:** Book a GTM Diagnostic → · Take the free GTM check
+**CTA:** Book a Growth Strategy Call → · Get your free GTM Scorecard

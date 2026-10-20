@@ -15,12 +15,12 @@ const mono = Geist_Mono({ subsets: ['latin'], variable: '--font-mono', display: 
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: 'GTM Consultant for B2B SaaS & Fintech | Dominize Consultancy', template: '%s' },
-  description: 'Turn your product into a GTM engine. ICP, positioning, demand and AI automation for B2B SaaS & fintech, connected into one system. Book a GTM Diagnostic.',
-  applicationName: 'Dominize Consultancy',
+  title: { default: `${SITE.title} | GTM Consulting for B2B SaaS`, template: '%s' },
+  description: 'Turn your product into a GTM engine. ICP, positioning, demand and AI automation for B2B SaaS & fintech, connected into one system. Book a Growth Strategy Call.',
+  applicationName: SITE.title,
   authors: [{ name: 'Manika Gupta', url: `${SITE.url}/about` }],
   creator: 'Manika Gupta',
-  openGraph: { type: 'website', siteName: 'Dominize Consultancy', locale: 'en_US', url: SITE.url},
+  openGraph: { type: 'website', siteName: SITE.title, locale: 'en_US', url: SITE.url},
   twitter: { card: 'summary_large_image' },
   alternates: { canonical: '/' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },

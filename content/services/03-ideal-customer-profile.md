@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | An evidence-based ICP, buying-committee personas and targeting rules that sales and marketing share |
 | **Typical timeline** | 2–3 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - "Everyone could use our product," so marketing targets no one
@@ -77,4 +77,4 @@ Yes, and you get the recordings plus a written summary of what we learned.
 ### Can you build an ICP for multiple products?
 We build one ICP per product line, or one per motion if the products share buyers.
 
-**CTA:** Book a GTM Diagnostic → · Take the free GTM check
+**CTA:** Book a Growth Strategy Call → · Get your free GTM Scorecard

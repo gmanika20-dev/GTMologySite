@@ -269,7 +269,7 @@ export default function LabApp({ elements, calLink, from }: { elements: ElMap; c
             {decision === 'yes' && (
               <div className="grid-2" style={{ alignItems: 'start' }}>
                 <div className="stack">
-                  <div className="host"><Avatar /><p className="bubble" style={{ fontSize: 'clamp(24px,3vw,36px)' }}>Wonderful. Pick a time for your GTM Diagnostic. Your results are attached.</p></div>
+                  <div className="host"><Avatar /><p className="bubble" style={{ fontSize: 'clamp(24px,3vw,36px)' }}>Wonderful. Pick a time for your Growth Strategy Call. Your results are attached.</p></div>
                   <article className="card">
                     <span className="num">YOUR CONTRACT IS READY</span>
                     <p style={{ marginTop: 8 }}>I&rsquo;ve prepared a draft agreement pre-filled with your plan ({chosen.map(elName).join(' + ')}, {chosenModel}). Download it, review it, and we&rsquo;ll finalise scope together on the call. Then sign and email it back, and we take it from there.</p>
@@ -286,7 +286,7 @@ export default function LabApp({ elements, calLink, from }: { elements: ElMap; c
                   <div className="field" style={{ flex: '1 1 260px' }}><label htmlFor="lab-email2">Work email</label><input id="lab-email2" type="email" autoComplete="email" value={email} onChange={(e) => { setEmail(e.target.value); setEmailState('idle'); }} /></div>
                   <button className="btn btn-primary btn-sm" onClick={sendCopy} disabled={emailState === 'sending' || emailState === 'sent'}>{emailState === 'sent' ? 'Sent ✓' : 'Send my diagnosis'}</button>
                 </div>
-                {emailState === 'sent' && <p className="ok" role="status" style={{ marginTop: 12 }}>Sent. Check your inbox. When you&rsquo;re ready, <Link href="/book">book a GTM Diagnostic</Link>.</p>}
+                {emailState === 'sent' && <p className="ok" role="status" style={{ marginTop: 12 }}>Sent. Check your inbox. When you&rsquo;re ready, <Link href="/book">book a Growth Strategy Call</Link>.</p>}
                 {emailState === 'error' && <p className="err" role="alert">Please check the email address and try again.</p>}
                 <button className="linkbtn" style={{ marginTop: 18 }} onClick={() => setDecision('yes')}>Actually, let&rsquo;s talk →</button>
               </div>

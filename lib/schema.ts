@@ -11,7 +11,7 @@ export const orgGraph = () => ({
       '@type': ['Organization', 'ProfessionalService'],
       '@id': ORG_ID,
       name: SITE.name,
-      alternateName: 'Dominize',
+      alternateName: ['Dominize', 'Dominize with Manika Gupta'],
       url: `${SITE.url}/`,
       logo: `${SITE.url}/icon.svg`,
       description: SITE.description,
@@ -23,7 +23,7 @@ export const orgGraph = () => ({
       knowsAbout: ['Go-to-market strategy', 'Product marketing', 'Ideal customer profile', 'Competitive intelligence', 'B2B positioning', 'Demand generation', 'Generative engine optimization', 'Marketing analytics', 'GTM engineering', 'AI agents for marketing'],
       potentialAction: {
         '@type': 'ReserveAction',
-        name: 'Book a GTM Diagnostic',
+        name: 'Book a Growth Strategy Call',
         target: { '@type': 'EntryPoint', urlTemplate: `${SITE.url}/book`, actionPlatform: ['http://schema.org/DesktopWebPlatform', 'http://schema.org/MobileWebPlatform'] },
       },
     },
@@ -63,7 +63,7 @@ export const serviceSchema = (s: { name: string; description: string; slug: stri
   audience: { '@type': 'BusinessAudience', audienceType: s.audience },
   description: s.description,
   url: `${SITE.url}/services/${s.slug}`,
-  potentialAction: { '@type': 'ReserveAction', name: 'Book a GTM Diagnostic', target: `${SITE.url}/book?service=${s.slug}` },
+  potentialAction: { '@type': 'ReserveAction', name: 'Book a Growth Strategy Call', target: `${SITE.url}/book?service=${s.slug}` },
 });
 
 export const articleSchema = (a: { title: string; description: string; slug: string; published: string; updated: string }) => ({

@@ -11,9 +11,9 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-grid">
           <div>
-            <Link href="/" className="logo"><Logo /> Dominize</Link>
+            <Link href="/" className="logo"><Logo /><span className="logo-text">Dominize<small>with Manika Gupta</small></span></Link>
             <p className="muted" style={{ maxWidth: '38ch', fontSize: 15 }}>AI-enabled GTM transformation for B2B SaaS &amp; fintech. Clear strategy, measurable pipeline.</p>
-            <Link href="/book" className="btn btn-primary btn-sm">Book a GTM Diagnostic <span className="arrow">→</span></Link>
+            <Link href="/book" className="btn btn-primary btn-sm">Book a Growth Strategy Call <span className="arrow">→</span></Link>
           </div>
           <div>
             <h2>Services</h2>
@@ -26,7 +26,7 @@ export default function Footer() {
           <div>
             <h2>Get started</h2>
             <ul>
-              <li><Link href="/lab">Free GTM diagnosis</Link></li>
+              <li><Link href="/lab">Free GTM Scorecard</Link></li>
               <li><Link href="/insights">Insights</Link></li>
               <li><Link href="/about">About Manika</Link></li>
               <li><a href={SITE.linkedin} rel="me noopener" target="_blank">LinkedIn</a></li>

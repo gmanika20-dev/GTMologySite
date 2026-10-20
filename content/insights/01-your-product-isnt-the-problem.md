@@ -93,4 +93,4 @@ Score each of the six GTM systems using evidence from your CRM, analytics, websi
 **Manika Gupta** is the founder of Dominize Consultancy, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
 
 ---
-**Check your GTM now.** The free GTM health check asks 10 questions, scores all six areas, and shows you your biggest bottleneck in about four minutes. → [Take the free GTM check](/lab)
+**Check your GTM now.** The free GTM Scorecard asks 10 questions, scores all six areas, and shows you your biggest bottleneck in about four minutes. → [Get your free GTM Scorecard](/lab)

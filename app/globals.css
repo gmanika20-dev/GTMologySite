@@ -63,8 +63,10 @@ main { position: relative; z-index: 2; }
 .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 50; transition: background .4s, border-color .4s, transform .4s var(--ease); border-bottom: 1px solid transparent; }
 .site-header.scrolled { background: rgba(255,255,255,.88); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-color: var(--line); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 72px; gap: 16px; }
-.logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 600; letter-spacing: -0.01em; font-size: 19px; }
-.logo svg { width: 26px; height: 26px; }
+.logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: -0.02em; font-size: 21px; }
+.logo svg { width: 30px; height: 30px; flex: none; }
+.logo-text { display: inline-flex; flex-direction: column; line-height: 1; }
+.logo-text small { font-size: 11.5px; font-weight: 500; letter-spacing: 0.01em; color: var(--grey); margin-top: 4px; }
 .nav { display: none; gap: 30px; font-size: 15px; color: var(--ink-2); }
 .nav a { position: relative; padding: 6px 0; transition: color .2s; }
 .nav a:hover, .nav a[aria-current='page'] { color: var(--ink); }
@@ -664,3 +666,42 @@ ol.stages { padding: 0; margin: 0; }
 .practice-card li a:hover { border-color: var(--c, var(--accent)); color: var(--c, var(--accent)); }
 .practice-card .go { margin-top: 18px; font-weight: 600; color: var(--c, var(--accent)); display: inline-flex; gap: 8px; }
 .cap-list .cap-row, .cap-list .cap-row:hover { color: var(--ink); text-decoration: none; }
+
+/* ===== Whitepaper & case study visuals ===== */
+.prose figure.viz { margin: 44px 0; padding: clamp(18px, 3vw, 32px); border: 1px solid var(--line); border-radius: 18px; background: #fff; box-shadow: 0 18px 44px -30px rgba(15,30,61,.25); }
+.prose figure.viz svg { width: 100%; height: auto; overflow: visible; }
+.prose figure.viz figcaption { margin-top: 16px; font-size: 14.5px; color: var(--grey); line-height: 1.5; }
+.viz text { font-family: var(--sans); fill: #0f1e3d; }
+.viz .t-c { font-size: 14px; font-weight: 700; text-anchor: middle; }
+.viz .t-cs { font-size: 12.5px; fill: #44506a; }
+.viz .t-label { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; fill: #6b7383; }
+.viz .t-label.accent { fill: #7a1f2b; }
+.viz .t-tiny { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; fill: #6b7383; }
+.viz .t-op { font-size: 30px; font-weight: 700; fill: #0f1e3d; text-anchor: middle; }
+.viz .w, .viz .t-cs.w, .viz .t-tiny.w { fill: #fff; }
+.viz .maroon-t { fill: #7a1f2b; font-weight: 600; }
+.viz .navy-t { fill: #1f3f74; font-weight: 600; }
+.viz .box { fill: #f5f6f9; stroke: #c9ced8; stroke-width: 1; }
+.viz .box.navy { fill: #0f1e3d; stroke: #0f1e3d; }
+.viz .box.maroon { fill: #7a1f2b; stroke: #7a1f2b; }
+.viz .arr { stroke: #7a1f2b; stroke-width: 2; fill: none; marker-end: url(#viz-arrow); }
+.viz .loop { stroke: #7a1f2b; stroke-width: 1.6; fill: none; stroke-dasharray: 5 5; marker-end: url(#viz-arrow); }
+.viz .link { stroke: #c9ced8; stroke-width: 1.6; fill: none; }
+.viz .lead { stroke: #c9ced8; stroke-width: 1.2; stroke-dasharray: 3 4; }
+.viz .axis { stroke: #c9ced8; stroke-width: 1.4; fill: none; }
+.viz .track { stroke: #c9ced8; stroke-width: 3; stroke-linecap: round; }
+.viz .brace { stroke: #7a1f2b; stroke-width: 2; stroke-dasharray: 4 4; }
+.viz .line { fill: none; stroke-width: 3.5; stroke-linecap: round; }
+.viz .l-maroon { stroke: #7a1f2b; } .viz .l-navy { stroke: #1f3f74; }
+.viz .dot-maroon { fill: #7a1f2b; } .viz .dot-navy { fill: #1f3f74; } .viz .dot-grey { fill: #9aa3b5; } .viz .dot-w { fill: #fff; }
+.viz .q { fill: #f5f6f9; stroke: #fff; stroke-width: 2; }
+.viz .q.good { fill: #0f1e3d; } .viz .q.bad { fill: #f6ecee; } .viz .q.mid { fill: #e9edf4; }
+.viz .lvl.l1 { fill: #e9edf4; } .viz .lvl.l2 { fill: #d5dce8; } .viz .lvl.l3 { fill: #1f3f74; } .viz .lvl.l4 { fill: #7a1f2b; }
+.viz .hub { fill: #7a1f2b; }
+.viz .page { fill: #fff; stroke: #c9ced8; stroke-width: 1.4; }
+.viz .blk { fill: #eef1f6; } .viz .blk.maroon { fill: #7a1f2b; } .viz .blk.navy { fill: #0f1e3d; }
+.viz .bar-bg { fill: #f5f6f9; }
+.viz .seg.s1 { fill: #1f3f74; } .viz .seg.s2 { fill: #0f1e3d; } .viz .seg.s3 { fill: #a3242f; } .viz .seg.s4 { fill: #5b6b88; }
+.viz-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+@media (max-width: 640px) { .prose figure.viz { margin: 32px -6px; padding: 14px; } }
+.insight-group { scroll-margin-top: 80px; }

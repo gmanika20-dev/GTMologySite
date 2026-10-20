@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | Lifecycle journeys, expansion plays and the reporting to see retention and expansion clearly |
 | **Typical timeline** | 3–4 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Customers who sign up but never fully use the product
@@ -78,4 +78,4 @@ We work with the CRM and marketing automation tools you already use, such as Hub
 ### Does this replace customer success?
 No. It supports customer success with journeys, content and signals, so the team can focus their time on the accounts that need it most.
 
-**CTA:** Book a GTM Diagnostic → · Take the free GTM check
+**CTA:** Book a Growth Strategy Call → · Get your free GTM Scorecard

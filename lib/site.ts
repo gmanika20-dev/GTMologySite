@@ -3,6 +3,7 @@ export const SITE = {
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.gtmologyai.com').replace(/\/$/, ''),
   name: 'Dominize Consultancy',
   shortName: 'Dominize',
+  title: 'Dominize with Manika Gupta', // website title / browser tab name
   tagline: 'Go-to-market consulting for B2B SaaS & fintech',
   description:
     'Dominize Consultancy is an AI-enabled go-to-market consulting firm founded by Manika Gupta. It helps B2B SaaS and fintech companies define their ideal customer, sharpen positioning, build demand and automate marketing operations with AI, connected as one GTM system from market to pipeline.',
@@ -23,7 +24,7 @@ export const KNOWN_FOR = [
 
 export const NAV = [
   { href: '/services', label: 'Services' },
-  { href: '/lab', label: 'Free GTM Check' },
+  { href: '/lab', label: 'Free GTM Scorecard' },
   { href: '/insights', label: 'Insights' },
   { href: '/about', label: 'About' },
 ];

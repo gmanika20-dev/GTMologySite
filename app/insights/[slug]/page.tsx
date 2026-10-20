@@ -37,6 +37,7 @@ export default async function Article({ params }: { params: Promise<{ slug: stri
           <p className="in-short">{p.inShort}</p>
         </div>
       </header>
+      <svg className="viz-defs" aria-hidden="true" focusable="false"><defs><marker id="viz-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7A1F2B" /></marker></defs></svg>
       <div className="paper" style={{ position: 'relative', zIndex: 2 }}>
         <div className="wrap" style={{ maxWidth: 920, padding: 'clamp(48px,7vw,96px) var(--gutter)' }}>
           <article className="prose" style={{ maxWidth: '72ch' }} dangerouslySetInnerHTML={{ __html: p.html }} />

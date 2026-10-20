@@ -20,7 +20,7 @@ const HOME_FAQS = [
   { q: 'What does a GTM consultant do?', a: 'A GTM consultant helps a company decide who to sell to, what to say, how to reach buyers and how to convert them into revenue. That covers ICP definition, positioning and messaging, launch planning, demand generation, sales enablement and measurement.' },
   { q: 'Who does Dominize work with?', a: 'B2B SaaS and fintech companies from seed stage to established enterprises, especially founders, marketing leaders and product marketing teams facing unclear ICPs, me-too positioning, weak pipeline or too much manual work. Dominize also designs and builds websites for growing businesses.' },
   { q: 'How is Dominize different from a marketing agency?', a: 'Agencies usually execute one channel. Dominize diagnoses and connects the whole GTM system, from market and message to demand, sales, data and AI, and builds the strategy, assets and automations needed to fix it.' },
-  { q: 'How do I get started?', a: 'Take the free 4-minute GTM health check, or book a 30-minute GTM Diagnostic call. Every engagement is scoped to your situation, and you receive a tailored proposal after the diagnostic.' },
+  { q: 'How do I get started?', a: 'Take the free 4-minute GTM Scorecard, or book a free 30-minute Growth Strategy Call. Every engagement is scoped to your situation, and you receive a tailored proposal after the diagnostic.' },
   { q: 'Do you work with companies outside India?', a: 'Yes. Dominize is based in Gurugram, India, and works with B2B companies globally, including the US, UK, EMEA and APAC.' },
 ];
 
@@ -57,8 +57,8 @@ export default function Home() {
             <p className="tags" data-reveal><span>GTM Strategy</span><span>Product Marketing</span><span>Demand Generation</span><span>AI Automation</span></p>
             <div data-reveal>
               <div className="cta-row">
-                <Link href="/book" className="btn btn-primary">Book a GTM Diagnostic <span className="arrow">→</span></Link>
-                <Link href="/lab" className="btn btn-ghost">Take the free GTM check</Link>
+                <Link href="/book" className="btn btn-primary">Book a Growth Strategy Call <span className="arrow">→</span></Link>
+                <Link href="/lab" className="btn btn-ghost">Get your free GTM Scorecard</Link>
               </div>
             </div>
             <div className="scroll-hint" aria-hidden="true"><i /> Scroll to explore</div>
@@ -159,7 +159,7 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <div data-reveal style={{ marginTop: 24 }} className="cta-row"><Link href="/services" className="btn btn-primary">See all services <span className="arrow">→</span></Link><Link href="/lab" className="btn btn-ghost">Not sure? Take the free GTM check</Link></div>
+          <div data-reveal style={{ marginTop: 24 }} className="cta-row"><Link href="/services" className="btn btn-primary">See all services <span className="arrow">→</span></Link><Link href="/lab" className="btn btn-ghost">Not sure? Get your free GTM Scorecard</Link></div>
         </div>
       </section>
 
@@ -170,12 +170,12 @@ export default function Home() {
             <span className="chapter" aria-hidden="true">03</span>
             <div className="stack">
               <p className="eyebrow" data-reveal>How it works</p>
-              <h2 id="method" className="h2" data-reveal>Get a free GTM check in 4 minutes. <em>Leave with a plan.</em></h2>
+              <h2 id="method" className="h2" data-reveal>Get a free GTM Scorecard in 4 minutes. <em>Leave with a plan.</em></h2>
             </div>
           </div>
           <StepsTimeline steps={STEPS} />
           <div className="cta-row" data-reveal style={{ marginTop: 32 }}>
-            <Link href="/lab" className="btn btn-primary">Take the free GTM check <span className="arrow">→</span></Link>
+            <Link href="/lab" className="btn btn-primary">Get your free GTM Scorecard <span className="arrow">→</span></Link>
           </div>
         </div>
       </section>
@@ -227,10 +227,10 @@ export default function Home() {
         <div className="banner-rings" aria-hidden="true"><i /><i /><i /></div>
         <div className="wrap stack" style={{ textAlign: 'center', display: 'grid', justifyItems: 'center', position: 'relative' }}>
           <h2 className="h1" data-reveal style={{ maxWidth: '18ch' }}>Let&rsquo;s find out what&rsquo;s really breaking your <em>pipeline.</em></h2>
-          <p className="lede" data-reveal>A 30-minute GTM Diagnostic. You&rsquo;ll leave with clarity, even if we never work together.</p>
+          <p className="lede" data-reveal>A free 30-minute Growth Strategy Call. You&rsquo;ll leave with clarity, even if we never work together.</p>
           <div className="cta-row" data-reveal style={{ justifyContent: 'center' }}>
-            <Link href="/book" className="btn btn-primary">Book a GTM Diagnostic <span className="arrow">→</span></Link>
-            <Link href="/lab" className="btn btn-ghost">or take the free GTM check first</Link>
+            <Link href="/book" className="btn btn-primary">Book a Growth Strategy Call <span className="arrow">→</span></Link>
+            <Link href="/lab" className="btn btn-ghost">or get your free GTM Scorecard first</Link>
           </div>
         </div>
       </section>

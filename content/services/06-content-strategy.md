@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | A buyer-led content plan that is measured in pipeline and visible in both Google and AI answers |
 | **Typical timeline** | 3 weeks (strategy), then ongoing |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Blog posts that get traffic but never influence a deal
@@ -76,4 +76,4 @@ Yes, on retainer. Strategy-only is also available.
 ### How fast does a B2B content strategy show results?
 Sales-enablement content works immediately. SEO typically takes 3–6 months.
 
-**CTA:** Book a GTM Diagnostic → · Take the free GTM check
+**CTA:** Book a Growth Strategy Call → · Get your free GTM Scorecard

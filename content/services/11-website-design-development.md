@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | A fast, search-ready website built on clear positioning and designed to turn visitors into conversations |
 | **Typical timeline** | 2–3 weeks (launch site) or 4–7 weeks (full custom site) |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - An outdated site you're embarrassed to send to prospects
@@ -41,7 +41,7 @@ Most agencies start with design. Without positioning, ICP and conversion goals d
 ## What you get
 Strategy & sitemap · Copywriting · Custom design · Responsive build · SEO & schema setup · Forms, booking & email integrations · Analytics & tracking · Easy-edit content system · 30 days post-launch support
 
-**Built here:** this website, including the free GTM health check, is an example of the work.
+**Built here:** this website, including the free GTM Scorecard, is an example of the work.
 
 ## Timeline
 Launch site: 2–3 weeks · full custom site: 4–7 weeks · immersive or interactive builds: quoted
@@ -79,4 +79,4 @@ Yes. You get an easy-edit content system, or ask us and we'll update it.
 ### Is website hosting included?
 Hosting setup is included. The site runs on your own accounts, so you fully own it.
 
-**CTA:** Start my website project → (Book a call) · Take the free GTM check
+**CTA:** Start my website project → (Book a call) · Get your free GTM Scorecard

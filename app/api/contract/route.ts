@@ -67,7 +67,7 @@ export async function POST(req: Request) {
   h('2. Term');
   text('One-time: until the Schedule A deliverables are delivered. Monthly retainer: renews monthly after an agreed minimum term; either party may cancel with 30 days written notice. Annual: 12 months from the start date; renews only by written agreement.');
   h('3. Fees & payment');
-  text('Fees, currency and payment schedule: [to be completed in the tailored proposal agreed after the GTM Diagnostic]. Fees exclude applicable taxes (GST for Indian clients). Invoices are payable within 15 days. Third-party costs (software, ad spend, API usage, hosting) are paid directly by the Client or pre-approved in writing.');
+  text('Fees, currency and payment schedule: [to be completed in the tailored proposal agreed after the Growth Strategy Call]. Fees exclude applicable taxes (GST for Indian clients). Invoices are payable within 15 days. Third-party costs (software, ad spend, API usage, hosting) are paid directly by the Client or pre-approved in writing.');
   h('4. Client responsibilities');
   text('The Client provides the materials and access in Schedule B on time, names one decision-maker available for about 2 hours a week, and gives feedback within 5 business days. Client-side delays extend timelines accordingly.');
   h('5. Communication');

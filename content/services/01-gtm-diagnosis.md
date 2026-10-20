@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | A ranked list of the root causes behind weak pipeline, and a 90-day plan to fix them |
 | **Typical timeline** | 2 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Pipeline targets missed for two or more quarters, and nobody agrees why
@@ -68,7 +68,7 @@ A GTM diagnostic is a structured audit of how a company finds, convinces and con
 ### How is a GTM audit different from a marketing audit?
 A marketing audit reviews channels and campaigns. A GTM audit reviews the whole system from market definition to closed revenue, including sales enablement, data and operations, because most pipeline problems cross team boundaries.
 
-### Is this the same as the free GTM health check?
+### Is this the same as the free GTM Scorecard?
 The free check gives you an instant, self-reported read. The GTM Diagnosis is a deep, evidence-based audit using your real data.
 
 ### What access do you need for a GTM diagnosis?
@@ -77,4 +77,4 @@ Read-only access to analytics, CRM reports and sales materials. An NDA is signed
 ### Can the GTM Diagnosis be credited toward a larger engagement?
 Yes. If you continue with a full engagement within 30 days, the diagnosis is credited toward it.
 
-**CTA:** Book a GTM Diagnostic → · Try the free GTM check first
+**CTA:** Book a Growth Strategy Call → · Try the free GTM Scorecard first

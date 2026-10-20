@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | Voice guidelines and an AI-ready prompt pack, so every writer and AI tool sounds like your brand |
 | **Typical timeline** | 2 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Content that sounds generic, or like it was written by five different people
@@ -77,4 +77,4 @@ Yes. The prompt pack and setup are included.
 ### Can we keep the founder's voice?
 Yes. We codify it so others can write in it.
 
-**CTA:** Book a GTM Diagnostic → · Take the free GTM check
+**CTA:** Book a Growth Strategy Call → · Get your free GTM Scorecard

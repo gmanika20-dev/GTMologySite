@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | A custom AI agent that turns a days-long marketing job into minutes, with human approval |
 | **Typical timeline** | 3–6 weeks per agent |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Your team uses ChatGPT, but only for drafting posts
@@ -79,4 +79,4 @@ You do: code, prompts and accounts.
 ### Can people outside our company use the AI agent?
 Yes. Agents can be published as web tools that need no AI account.
 
-**CTA:** Explore AI Marketing Transformation → · Take the free GTM check
+**CTA:** Explore AI Marketing Transformation → · Get your free GTM Scorecard

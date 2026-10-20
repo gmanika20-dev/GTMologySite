@@ -82,8 +82,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <h2>At a glance</h2>
               <dl>{s.glance.map((g) => <div key={g.label}><dt>{g.label}</dt><dd>{g.value}</dd></div>)}</dl>
               <div className="actions">
-                <Link href={bookHref} className="btn btn-primary">Book a GTM Diagnostic <span className="arrow">→</span></Link>
-                <Link href={`/lab?from=${s.slug}`} className="btn btn-ghost">Not sure yet? Take the free GTM check</Link>
+                <Link href={bookHref} className="btn btn-primary">Book a Growth Strategy Call <span className="arrow">→</span></Link>
+                <Link href={`/lab?from=${s.slug}`} className="btn btn-ghost">Not sure yet? Get your free GTM Scorecard</Link>
               </div>
             </div>
           </aside>
@@ -94,7 +94,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         <div className="wrap stack" style={{ textAlign: 'center', display: 'grid', justifyItems: 'center' }}>
           <h2 className="h2" data-reveal style={{ maxWidth: '20ch' }}>Ready to <em>get started?</em></h2>
           <div className="cta-row" data-reveal style={{ justifyContent: 'center' }}>
-            <Link href={bookHref} className="btn btn-primary">Book a GTM Diagnostic <span className="arrow">→</span></Link>
+            <Link href={bookHref} className="btn btn-primary">Book a Growth Strategy Call <span className="arrow">→</span></Link>
             <Link href="/services" className="btn btn-ghost">See all services</Link>
           </div>
         </div>

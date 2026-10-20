@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 const FAQS = [
-  { q: 'Which Dominize service should I start with?', a: 'Start with the GTM Diagnostic, or the free 4-minute GTM health check. It shows which part of your go-to-market is limiting growth and which services fix it first.' },
+  { q: 'Which Dominize service should I start with?', a: 'Start with the GTM Diagnostic, or the free 4-minute GTM Scorecard. It shows which part of your go-to-market is limiting growth and which services fix it first.' },
   { q: 'Can I combine services?', a: 'Yes. Services are designed to work together, and most clients combine them into a programme such as the GTM Clarity Sprint, the Pipeline Growth System, Launch & Sales Readiness or AI Marketing Transformation.' },
   { q: 'What are the ways to work with Dominize?', a: 'Three engagement models: a one-time project with defined deliverables, a monthly retainer for ongoing execution, or an annual contract where Manika works as your embedded fractional GTM lead.' },
   { q: 'Do you only advise, or do you also implement?', a: 'Both. We advise on strategy and then build the assets, campaigns, sales materials and systems with your team, so the recommendations turn into results.' },
@@ -60,7 +60,7 @@ export default function ServicesHub() {
                 </Link>
                 <Link href="/lab" className="card start-card">
                   <span className="ico-wrap"><Icon name="chart" /></span>
-                  <h3 className="h3">Free GTM health check</h3>
+                  <h3 className="h3">Free GTM Scorecard</h3>
                   <p>Answer a few questions and see which part of your go-to-market needs attention first.</p>
                   <span className="go">Take the free check <span className="arrow">→</span></span>
                 </Link>
@@ -131,7 +131,7 @@ export default function ServicesHub() {
             ))}
           </div>
           <p className="engage-line" data-reveal>Work with us as a <strong>one-time project</strong>, a <strong>monthly retainer</strong> or an <strong>annual partnership</strong>.</p>
-          <div className="cta-row" data-reveal><Link href="/book" className="btn btn-primary">Book a GTM Diagnostic <span className="arrow">→</span></Link><Link href="/lab" className="btn btn-ghost">Take the free GTM check</Link></div>
+          <div className="cta-row" data-reveal><Link href="/book" className="btn btn-primary">Book a Growth Strategy Call <span className="arrow">→</span></Link><Link href="/lab" className="btn btn-ghost">Get your free GTM Scorecard</Link></div>
         </div>
       </section>
 

@@ -12,20 +12,20 @@ export default function Privacy() {
         <p>Last updated: 15 October 2026. This policy explains how Manika Gupta, trading as Dominize Consultancy (&ldquo;we&rdquo;), handles personal data collected through {SITE.url}.</p>
         <h2>What we collect</h2>
         <ul>
-          <li><strong>Information you give us:</strong> name, work email, company, website, role, the answers you give in the free GTM health check, and messages you send through booking forms.</li>
+          <li><strong>Information you give us:</strong> name, work email, company, website, role, the answers you give in the free GTM Scorecard, and messages you send through booking forms.</li>
           <li><strong>Booking information:</strong> meeting times and details, processed by our scheduling provider.</li>
           <li><strong>Usage data:</strong> pages visited and device information, collected through analytics only if you consent.</li>
         </ul>
         <h2>How we use it</h2>
         <ul>
-          <li>To produce your GTM health check results and email them to you if you ask</li>
-          <li>To arrange, prepare for and follow up on your GTM Diagnostic call</li>
+          <li>To produce your GTM Scorecard results and email them to you if you ask</li>
+          <li>To arrange, prepare for and follow up on your Growth Strategy Call</li>
           <li>To send GTM insights, only if you opt in (unsubscribe anytime)</li>
           <li>To improve the website</li>
         </ul>
         <p>We do not sell personal data. We do not use your data to train AI models.</p>
         <h2 id="cookies">Cookies &amp; tracking</h2>
-        <p>Essential storage keeps the site working (for example, remembering your cookie choice and your progress in the free GTM check). With your consent we also use:</p>
+        <p>Essential storage keeps the site working (for example, remembering your cookie choice and your progress in the free GTM Scorecard). With your consent we also use:</p>
         <ul>
           <li><strong>Analytics:</strong> Google Analytics 4, to understand how the site is used (IP addresses anonymised).</li>
           <li><strong>Marketing:</strong> the LinkedIn Insight Tag, to measure how our ads perform.</li>
@@ -34,7 +34,7 @@ export default function Privacy() {
         <h2>Service providers</h2>
         <p>We use trusted processors to run the site: Vercel (hosting), Supabase (database), Resend (email), Cal.com (scheduling), and, only with your consent, Google Analytics and LinkedIn (analytics and ad measurement). Some providers process data outside India under their own safeguards. They process data only on our instructions.</p>
         <h2>Retention</h2>
-        <p>Incomplete GTM health checks are anonymised after 12 months. Leads are kept until you unsubscribe or ask for deletion. Client contracts and bookings are kept for 7 years for legal and financial purposes.</p>
+        <p>Incomplete GTM Scorecards are anonymised after 12 months. Leads are kept until you unsubscribe or ask for deletion. Client contracts and bookings are kept for 7 years for legal and financial purposes.</p>
         <h2>Your rights</h2>
         <p>Under India&rsquo;s Digital Personal Data Protection Act 2023, the GDPR and similar laws, you can ask to access, correct, export or delete your data, or withdraw consent. Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and we&rsquo;ll respond within 30 days.</p>
         <h2>Grievance officer &amp; contact</h2>

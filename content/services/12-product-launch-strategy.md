@@ -20,7 +20,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 | **Outcome** | A launch plan that marketing, product and sales all work from, and launch assets that are ready on day one |
 | **Typical timeline** | 3–6 weeks before launch, plus post-launch review |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
-| **How to start** | Book a GTM Diagnostic, or take the free 4-minute GTM health check |
+| **How to start** | Book a Growth Strategy Call, or take the free 4-minute GTM Scorecard |
 
 ## You might be seeing
 - Launches that ship on time but go quiet a week later
@@ -78,4 +78,4 @@ Yes. We use a lighter version of the plan for features, so every release still h
 ### Do you create the launch assets as well?
 Yes. We can write and produce the launch messaging, web copy, sales kit and campaign briefs, or guide your team and agencies to do it.
 
-**CTA:** Book a GTM Diagnostic → · Take the free GTM check
+**CTA:** Book a Growth Strategy Call → · Get your free GTM Scorecard
