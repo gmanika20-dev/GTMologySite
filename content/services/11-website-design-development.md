@@ -2,7 +2,7 @@
 element: { no: "11", symbol: "Wb", name: "Website Build", group: "Build" }
 url: /services/website-design-development
 formula: Standalone
-seo_title: "B2B Website Design & Development | GTMology"
+seo_title: "B2B Website Design & Development | Dominize"
 meta_description: "Websites built on GTM strategy, not just good looks. Positioning-led, fast, SEO-ready websites for SaaS, fintech and growing businesses."
 primary_keyword: B2B website design
 author: Manika Gupta
@@ -11,7 +11,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 ---
 
 # Can you create my website?
-> **In short:** Yes. GTMology designs and builds websites that start from strategy: who the site is for, what it must convince them of, and what action they should take. Then it's built fast, search-ready and easy to update.
+> **In short:** Yes. Dominize designs and builds websites that start from strategy: who the site is for, what it must convince them of, and what action they should take. Then it's built fast, search-ready and easy to update.
 
 ## At a glance
 | | |

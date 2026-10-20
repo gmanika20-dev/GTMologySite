@@ -2,7 +2,7 @@
 element: { no: "02", symbol: "Ci", name: "Competitive Intelligence", group: "Strategy & Intelligence" }
 url: /services/competitor-analysis
 formula: GTM Clarity Sprint
-seo_title: "Competitive Intelligence for B2B SaaS & Fintech | GTMology"
+seo_title: "Competitive Intelligence for B2B SaaS & Fintech | Dominize"
 meta_description: "Know who you're really competing with, where they're weak and how to win. Competitor analysis, battle cards and whitespace, powered by AI research."
 primary_keyword: competitive intelligence for B2B SaaS
 author: Manika Gupta

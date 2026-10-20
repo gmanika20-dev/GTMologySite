@@ -25,7 +25,7 @@ export default function Header() {
   return (
     <header className={`site-header${scrolled || open ? ' scrolled' : ''}`}>
       <div className="wrap">
-        <Link href="/" className="logo" aria-label="GTMology home"><Logo /> GTMology</Link>
+        <Link href="/" className="logo" aria-label="Dominize Consultancy home"><Logo /> Dominize</Link>
         <nav className="nav" aria-label="Main">
           {NAV.map((n) => (
             <Link key={n.href} href={n.href} aria-current={pathname.startsWith(n.href) ? 'page' : undefined}>{n.label}</Link>

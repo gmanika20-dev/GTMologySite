@@ -1,4 +1,4 @@
--- GTMology database (Supabase / PostgreSQL). Run once in Supabase → SQL Editor.
+-- Dominize Consultancy database (Supabase / PostgreSQL). Run once in Supabase → SQL Editor.
 -- Simplified from Step 1 doc 05: Lab answers, diagnosis and formula are stored as JSONB on lab_sessions.
 
 create table if not exists public.leads (

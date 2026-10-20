@@ -5,7 +5,7 @@ export const dynamic = 'force-static';
 
 export function GET() {
   const s = getServices(), p = getInsights();
-  const body = `# GTMology
+  const body = `# Dominize Consultancy
 
 > ${SITE.description}
 

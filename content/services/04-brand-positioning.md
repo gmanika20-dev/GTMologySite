@@ -2,7 +2,7 @@
 element: { no: "04", symbol: "Po", name: "Positioning", group: "Strategy & Intelligence" }
 url: /services/brand-positioning
 formula: GTM Clarity Sprint
-seo_title: "B2B Positioning Strategy & Messaging Framework | GTMology"
+seo_title: "B2B Positioning Strategy & Messaging Framework | Dominize"
 meta_description: "Your competitors may not be better, just better positioned. Positioning and messaging architecture that buyers understand and sales can use."
 primary_keyword: B2B positioning strategy
 author: Manika Gupta

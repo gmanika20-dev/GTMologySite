@@ -118,7 +118,7 @@ export function ChainStory() {
       <div className="chain-sticky">
         <div className="wrap stack">
           <p className="eyebrow">How it connects</p>
-          <h2 id="system" className="h2">Most consultants fix one part. GTMology connects the <em>whole growth engine.</em></h2>
+          <h2 id="system" className="h2">Most consultants fix one part. Dominize connects the <em>whole growth engine.</em></h2>
           <div className="chain" role="list" aria-label="How the GTM engine connects" style={{ marginTop: 32 }}>
             {LINKS.map(([n], i) => (
               <span key={n} style={{ display: 'contents' }}>

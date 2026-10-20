@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import TrackLead from '@/components/TrackLead';
 
-export const metadata: Metadata = { title: "You're booked | GTMology", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "You're booked | Dominize", robots: { index: false, follow: false } };
 
 export default async function ThankYou({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {
   const sp = await searchParams;

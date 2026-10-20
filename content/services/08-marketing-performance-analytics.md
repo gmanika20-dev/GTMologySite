@@ -2,7 +2,7 @@
 element: { no: "08", symbol: "Pa", name: "Performance Analytics", group: "Growth" }
 url: /services/marketing-performance-analytics
 formula: Pipeline Growth System
-seo_title: "Marketing Analytics & Funnel Dashboards | GTMology"
+seo_title: "Marketing Analytics & Funnel Dashboards | Dominize"
 meta_description: "Traffic isn't the goal. Pipeline is. Funnel analysis, attribution and marketing dashboards that show exactly where your GTM leaks."
 primary_keyword: marketing analytics consultant
 author: Manika Gupta

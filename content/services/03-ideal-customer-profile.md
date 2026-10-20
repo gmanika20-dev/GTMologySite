@@ -2,7 +2,7 @@
 element: { no: "03", symbol: "Au", name: "Audience & ICP", group: "Strategy & Intelligence" }
 url: /services/ideal-customer-profile
 formula: GTM Clarity Sprint
-seo_title: "Ideal Customer Profile (ICP) & Buyer Personas | GTMology"
+seo_title: "Ideal Customer Profile (ICP) & Buyer Personas | Dominize"
 meta_description: "Define who to sell to, and who to stop selling to. Data-backed ICP, buying committee personas and segment priorities for B2B SaaS and fintech."
 primary_keyword: ideal customer profile (ICP)
 author: Manika Gupta

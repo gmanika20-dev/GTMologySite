@@ -2,7 +2,7 @@
 element: { no: "06", symbol: "Cs", name: "Content Strategy", group: "Growth" }
 url: /services/content-strategy
 formula: Pipeline Growth System
-seo_title: "B2B Content Strategy for SaaS & Fintech | GTMology"
+seo_title: "B2B Content Strategy for SaaS & Fintech | Dominize"
 meta_description: "Content that creates pipeline, not just traffic. Buyer-led topics, SEO and GEO, thought leadership and a production system built for B2B."
 primary_keyword: B2B content strategy
 author: Manika Gupta
@@ -70,7 +70,7 @@ A B2B content strategy is a plan for which topics, formats and channels will mov
 ### What is the difference between SEO, GEO and AEO?
 SEO helps pages rank in search engines. AEO (answer engine optimization) structures content so it is chosen as the direct answer in featured snippets and voice search. GEO (generative engine optimization) makes content likely to be cited by AI assistants such as ChatGPT, Gemini, Perplexity and Claude.
 
-### Does GTMology write the content as well as the strategy?
+### Does Dominize write the content as well as the strategy?
 Yes, on retainer. Strategy-only is also available.
 
 ### How fast does a B2B content strategy show results?

@@ -2,7 +2,7 @@
 element: { no: "09", symbol: "Ge", name: "GTM Engineering", group: "AI & Engineering" }
 url: /services/gtm-engineering-automation
 formula: AI Marketing Transformation
-seo_title: "GTM Engineering & Marketing Automation | GTMology"
+seo_title: "GTM Engineering & Marketing Automation | Dominize"
 meta_description: "Your team shouldn't spend 20 hours on work automation can do in 20 minutes. GTM engineering, workflow automation and RevOps systems for B2B teams."
 primary_keyword: GTM engineering
 author: Manika Gupta

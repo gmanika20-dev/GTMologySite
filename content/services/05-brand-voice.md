@@ -2,7 +2,7 @@
 element: { no: "05", symbol: "Bv", name: "Brand Voice", group: "Strategy & Intelligence" }
 url: /services/brand-voice
 formula: GTM Clarity Sprint
-seo_title: "B2B Brand Voice & Tone Guidelines | GTMology"
+seo_title: "B2B Brand Voice & Tone Guidelines | Dominize"
 meta_description: "A brand voice your team and your AI tools can actually use. Voice principles, tone by channel, vocabulary and AI-ready guidelines for B2B brands."
 primary_keyword: B2B brand voice
 author: Manika Gupta

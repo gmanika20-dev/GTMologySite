@@ -4,7 +4,7 @@ slug: stop-using-ai-as-a-typewriter
 type: Thought leadership
 topic: AI & Automation
 primary_keyword: AI agents for marketing
-seo_title: "AI Agents for Marketing: Beyond Content Writing | GTMology"
+seo_title: "AI Agents for Marketing: Beyond Content Writing | Dominize"
 meta_description: "Most B2B teams use AI to draft posts. The bigger win is redesigning repetitive marketing work around AI agents with human approval. Here's how to start."
 author: Manika Gupta
 published: 2026-10-13
@@ -72,7 +72,7 @@ A chatbot answers individual prompts. An AI agent works through a defined sequen
 Start with one recurring, time-consuming, well-understood job. Map how a skilled person does it step by step, build the agent around those stages, and measure the hours it saves.
 
 ## About the author
-**Manika Gupta** is the founder of GTMology, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
+**Manika Gupta** is the founder of Dominize Consultancy, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
 
 ---
 **Where would AI save your team the most time?** The free GTM health check scores your operations and automation maturity alongside five other GTM systems. → [Take the free GTM check](/lab) · or see [AI marketing agents](/services/ai-marketing-agents)

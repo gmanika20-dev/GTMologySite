@@ -4,7 +4,7 @@ slug: ideal-customer-profile-from-evidence
 type: Blog  # expand into a gated Whitepaper with templates later
 topic: ICP & Audience
 primary_keyword: ideal customer profile
-seo_title: "How to Build an Ideal Customer Profile (ICP) From Your CRM | GTMology"
+seo_title: "How to Build an Ideal Customer Profile (ICP) From Your CRM | Dominize"
 meta_description: "A step-by-step method to build a B2B ideal customer profile from closed-won, lost and churned deals, plus how to turn it into targeting rules."
 author: Manika Gupta
 published: 2026-10-13
@@ -79,7 +79,7 @@ Review it every quarter using new closed-won and closed-lost data, and immediate
 Firmographics, situational triggers, deal behaviour (cycle length, deal size, stakeholders) and retention data for won, lost and churned accounts, plus qualitative insight from customer interviews.
 
 ## About the author
-**Manika Gupta** is the founder of GTMology, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
+**Manika Gupta** is the founder of Dominize Consultancy, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
 
 ---
 **Not sure your ICP is sharp enough?** The free GTM health check scores your audience clarity alongside five other GTM systems in about four minutes. → [Take the free GTM check](/lab) · or explore [ICP & buyer personas](/services/ideal-customer-profile)

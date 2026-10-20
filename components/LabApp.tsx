@@ -93,7 +93,7 @@ export default function LabApp({ elements, calLink, from }: { elements: ElMap; c
     const r = await fetch('/api/contract', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name: intake.name, company: intake.company, role: intake.role, email, formula: { name: current.name, elements: chosen, model: chosenModel, length: current.length } }) });
     if (!r.ok) return;
     const blob = await r.blob(); const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob); a.download = `GTMology-Agreement-${(intake.company || 'draft').replace(/\W+/g, '-')}.pdf`; a.click(); URL.revokeObjectURL(a.href);
+    a.href = URL.createObjectURL(blob); a.download = `Dominize-Agreement-${(intake.company || 'draft').replace(/\W+/g, '-')}.pdf`; a.click(); URL.revokeObjectURL(a.href);
   };
 
   const reset = () => { try { localStorage.removeItem(KEY); } catch {} setAnswers({}); setFu({}); setPicked(null); setModel(null); setTier('compound'); setDecision(null); setRestored(false); go(0); };

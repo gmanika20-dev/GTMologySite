@@ -16,12 +16,12 @@ const SYMPTOMS = [
 ];
 
 const HOME_FAQS = [
-  { q: 'What is GTMology?', a: "GTMology is an AI-enabled go-to-market (GTM) consultancy for B2B SaaS and fintech companies, founded by Manika Gupta. It diagnoses why a company's GTM isn't producing pipeline, then fixes the system across ICP, positioning, demand generation, conversion, sales enablement and AI automation." },
+  { q: 'What is Dominize Consultancy?', a: "Dominize Consultancy is an AI-enabled go-to-market (GTM) consulting firm for B2B SaaS and fintech companies, founded by Manika Gupta. It diagnoses why a company's GTM isn't producing pipeline, then fixes the system across ICP, positioning, demand generation, conversion, sales enablement and AI automation." },
   { q: 'What does a GTM consultant do?', a: 'A GTM consultant helps a company decide who to sell to, what to say, how to reach buyers and how to convert them into revenue. That covers ICP definition, positioning and messaging, launch planning, demand generation, sales enablement and measurement.' },
-  { q: 'Who does GTMology work with?', a: 'B2B SaaS and fintech companies from seed stage to established enterprises, especially founders, marketing leaders and product marketing teams facing unclear ICPs, me-too positioning, weak pipeline or too much manual work. GTMology also designs and builds websites for growing businesses.' },
-  { q: 'How is GTMology different from a marketing agency?', a: 'Agencies usually execute one channel. GTMology diagnoses and connects the whole GTM system, from market and message to demand, sales, data and AI, and builds the strategy, assets and automations needed to fix it.' },
+  { q: 'Who does Dominize work with?', a: 'B2B SaaS and fintech companies from seed stage to established enterprises, especially founders, marketing leaders and product marketing teams facing unclear ICPs, me-too positioning, weak pipeline or too much manual work. Dominize also designs and builds websites for growing businesses.' },
+  { q: 'How is Dominize different from a marketing agency?', a: 'Agencies usually execute one channel. Dominize diagnoses and connects the whole GTM system, from market and message to demand, sales, data and AI, and builds the strategy, assets and automations needed to fix it.' },
   { q: 'How do I get started?', a: 'Take the free 4-minute GTM health check, or book a 30-minute GTM Diagnostic call. Every engagement is scoped to your situation, and you receive a tailored proposal after the diagnostic.' },
-  { q: 'Do you work with companies outside India?', a: 'Yes. GTMology is based in Gurugram, India, and works with B2B companies globally, including the US, UK, EMEA and APAC.' },
+  { q: 'Do you work with companies outside India?', a: 'Yes. Dominize is based in Gurugram, India, and works with B2B companies globally, including the US, UK, EMEA and APAC.' },
 ];
 
 const SYMPTOM_ICONS = ['target', 'megaphone', 'funnel', 'compass', 'clock'];
@@ -111,10 +111,10 @@ export default function Home() {
         <div className="band-orbs" aria-hidden="true"><i /><i /><i /></div>
         <div className="wrap why-grid">
           <figure className="portrait" data-reveal data-parallax="0.05">
-            <img src="/media/manika-gupta.webp" alt="Manika Gupta, founder of GTMology" width={1374} height={1145} loading="lazy" decoding="async" />
+            <img src="/media/manika-gupta.webp" alt="Manika Gupta, founder of Dominize Consultancy" width={1374} height={1145} loading="lazy" decoding="async" />
           </figure>
           <div className="stack">
-            <p className="eyebrow" data-reveal>Why GTMology</p>
+            <p className="eyebrow" data-reveal>Why Dominize</p>
             <h2 id="why" className="quote" data-reveal>Strategy without execution doesn&rsquo;t create pipeline. Execution without strategy creates noise. <em>I bridge the two.</em></h2>
             <p className="lede" data-reveal>I&rsquo;ve worked across product marketing, GTM, demand generation, analytics and AI automation. Most recently that was for a global banking-technology leader serving financial institutions in the US, EMEA and APAC. So I don&rsquo;t look at marketing as separate channels. I look at the entire system, from market to pipeline. The strategy, judgement and craft are mine; AI is an added capability I bring when it genuinely helps.</p>
             <div data-reveal><Link href="/about" className="btn btn-ghost">Meet Manika <span className="arrow">→</span></Link></div>

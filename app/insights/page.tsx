@@ -7,7 +7,7 @@ import Icon from '@/components/icons';
 const POST_ICONS = ['layers', 'bot', 'users'];
 
 export const metadata: Metadata = {
-  title: 'Insights: GTM Strategy for B2B SaaS & Fintech | GTMology',
+  title: 'Insights: GTM Strategy for B2B SaaS & Fintech | Dominize',
   description: 'Research, frameworks and field notes on GTM strategy, positioning, demand generation and AI marketing automation for B2B SaaS and fintech.',
   alternates: { canonical: '/insights' },
 };

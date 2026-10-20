@@ -8,15 +8,15 @@ import { breadcrumbs, faqSchema } from '@/lib/schema';
 import Icon, { SERVICE_ICON } from '@/components/icons';
 
 export const metadata: Metadata = {
-  title: 'Go-to-Market Strategy Services for B2B SaaS | GTMology',
+  title: 'Go-to-Market Strategy Services for B2B SaaS | Dominize',
   description: 'Eleven GTM services across strategy, growth, intelligence and AI. Available as a one-time project, monthly retainer or annual contract.',
   alternates: { canonical: '/services' },
 };
 
 const FAQS = [
-  { q: 'Which GTMology service should I start with?', a: 'Start with the GTM Diagnosis, or the free 4-minute GTM health check. It identifies which of the six GTM systems is limiting your pipeline and recommends the services that fix it first.' },
+  { q: 'Which Dominize service should I start with?', a: 'Start with the GTM Diagnosis, or the free 4-minute GTM health check. It identifies which of the six GTM systems is limiting your pipeline and recommends the services that fix it first.' },
   { q: 'Can I combine services?', a: 'Yes. Services are designed to combine into packages. For example, the GTM Clarity Sprint combines competitive intelligence, ICP, positioning and brand voice.' },
-  { q: 'What are the ways to work with GTMology?', a: 'Three engagement models: a one-time project with defined deliverables, a monthly retainer for ongoing execution, or an annual contract where Manika works as your embedded fractional GTM lead.' },
+  { q: 'What are the ways to work with Dominize?', a: 'Three engagement models: a one-time project with defined deliverables, a monthly retainer for ongoing execution, or an annual contract where Manika works as your embedded fractional GTM lead.' },
 ];
 
 export default function ServicesHub() {
@@ -26,7 +26,7 @@ export default function ServicesHub() {
     <>
       <JsonLd data={breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Services', path: '/services' }])} />
       <JsonLd data={faqSchema(FAQS)} />
-      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'GTMology services', itemListElement: all.map((s, i) => ({ '@type': 'ListItem', position: i + 1, url: `/services/${s.slug}`, name: s.element.name })) }} />
+      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'Dominize services', itemListElement: all.map((s, i) => ({ '@type': 'ListItem', position: i + 1, url: `/services/${s.slug}`, name: s.element.name })) }} />
       <section className="svc-hero">
         <div className="wrap stack">
           <p className="eyebrow" data-reveal>Our services</p>

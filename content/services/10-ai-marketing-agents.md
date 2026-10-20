@@ -2,7 +2,7 @@
 element: { no: "10", symbol: "Ag", name: "AI Marketing Agent", group: "AI & Engineering" }
 url: /services/ai-marketing-agents
 formula: AI Marketing Transformation
-seo_title: "Custom AI Agents for Marketing Teams | GTMology"
+seo_title: "Custom AI Agents for Marketing Teams | Dominize"
 meta_description: "Stop using AI just to write content. Custom AI agents for competitive research, content audits, reporting and sales intelligence, with human approval built in."
 primary_keyword: AI agents for marketing
 author: Manika Gupta

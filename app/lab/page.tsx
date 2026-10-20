@@ -8,7 +8,7 @@ import { breadcrumbs, faqSchema } from '@/lib/schema';
 import { SITE } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Free GTM Health Check: 4-Minute GTM Audit | GTMology',
+  title: 'Free GTM Health Check: 4-Minute GTM Audit | Dominize',
   description: "Find what's slowing your go-to-market in 4 minutes. Answer 10 questions, get a score across 6 GTM systems and a recommended fix. Free, no sign-up.",
   alternates: { canonical: '/lab' },
 };
@@ -27,8 +27,8 @@ export default async function LabPage({ searchParams }: { searchParams: Promise<
 
   return (
     <>
-      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'WebApplication', name: 'GTMology Free GTM Health Check', url: `${SITE.url}/lab`, applicationCategory: 'BusinessApplication', operatingSystem: 'Web', isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, provider: { '@id': `${SITE.url}/#org` } }} />
-      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'HowTo', name: 'How to run a free GTM health check with GTMology', totalTime: 'PT4M', step: HOWTO.map((t, i) => ({ '@type': 'HowToStep', position: i + 1, text: t })) }} />
+      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'WebApplication', name: 'Dominize Free GTM Health Check', url: `${SITE.url}/lab`, applicationCategory: 'BusinessApplication', operatingSystem: 'Web', isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, provider: { '@id': `${SITE.url}/#org` } }} />
+      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'HowTo', name: 'How to run a free GTM health check with Dominize', totalTime: 'PT4M', step: HOWTO.map((t, i) => ({ '@type': 'HowToStep', position: i + 1, text: t })) }} />
       <JsonLd data={faqSchema(FAQS)} />
       <JsonLd data={breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Free GTM Check', path: '/lab' }])} />
 

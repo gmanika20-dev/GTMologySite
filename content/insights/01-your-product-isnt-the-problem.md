@@ -4,7 +4,7 @@ slug: your-product-isnt-the-problem
 type: Blog
 topic: GTM Strategy
 primary_keyword: GTM diagnostic
-seo_title: "Why Your GTM Isn't Working: 6 Systems to Diagnose | GTMology"
+seo_title: "Why Your GTM Isn't Working: 6 Systems to Diagnose | Dominize"
 meta_description: "Good products miss pipeline targets because of the GTM system around them. A diagnostic framework covering ICP, positioning, demand, conversion, enablement and ops."
 author: Manika Gupta
 published: 2026-10-13
@@ -71,7 +71,7 @@ So before your next campaign, hire or tool purchase, ask:
 2. What evidence do we have, from data rather than opinion?
 3. What's the smallest test that would prove the fix?
 
-That's how GTMology works: **understand the problem before recommending the fix.**
+That's how Dominize works: **understand the problem before recommending the fix.**
 
 
 ## Key takeaways
@@ -90,7 +90,7 @@ A GTM system connects product, market (ICP), message (positioning), demand gener
 Score each of the six GTM systems using evidence from your CRM, analytics, website, sales materials and competitors. Identify the weakest system, then design the smallest test that would prove the fix.
 
 ## About the author
-**Manika Gupta** is the founder of GTMology, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
+**Manika Gupta** is the founder of Dominize Consultancy, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
 
 ---
 **Check your GTM now.** The free GTM health check asks 10 questions, scores all six areas, and shows you your biggest bottleneck in about four minutes. → [Take the free GTM check](/lab)

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { SITE } from '@/lib/site';
 
-export const metadata: Metadata = { title: 'Privacy Policy | GTMology', description: 'How GTMology collects, uses and protects your data.', alternates: { canonical: '/privacy' } };
+export const metadata: Metadata = { title: 'Privacy Policy | Dominize', description: 'How Dominize collects, uses and protects your data.', alternates: { canonical: '/privacy' } };
 
 export default function Privacy() {
   return (
@@ -9,7 +9,7 @@ export default function Privacy() {
       <div className="wrap prose">
         <p className="eyebrow">Legal · Draft: review with a lawyer before launch</p>
         <h1 className="h1" style={{ marginBottom: 24 }}>Privacy policy</h1>
-        <p>Last updated: 15 October 2026. This policy explains how Manika Gupta, trading as GTMology (&ldquo;we&rdquo;), handles personal data collected through {SITE.url}.</p>
+        <p>Last updated: 15 October 2026. This policy explains how Manika Gupta, trading as Dominize Consultancy (&ldquo;we&rdquo;), handles personal data collected through {SITE.url}.</p>
         <h2>What we collect</h2>
         <ul>
           <li><strong>Information you give us:</strong> name, work email, company, website, role, the answers you give in the free GTM health check, and messages you send through booking forms.</li>
@@ -38,7 +38,7 @@ export default function Privacy() {
         <h2>Your rights</h2>
         <p>Under India&rsquo;s Digital Personal Data Protection Act 2023, the GDPR and similar laws, you can ask to access, correct, export or delete your data, or withdraw consent. Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and we&rsquo;ll respond within 30 days.</p>
         <h2>Grievance officer &amp; contact</h2>
-        <p>For any privacy question, request or complaint under the Digital Personal Data Protection Act 2023, contact our grievance officer: Manika Gupta, GTMology, New Delhi, India · <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We aim to respond within 30 days.</p>
+        <p>For any privacy question, request or complaint under the Digital Personal Data Protection Act 2023, contact our grievance officer: Manika Gupta, Dominize Consultancy, New Delhi, India · <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We aim to respond within 30 days.</p>
         <h2>Governing law</h2>
         <p>This policy is governed by the laws of India, and the courts at New Delhi have jurisdiction.</p>
       </div>

@@ -15,12 +15,12 @@ const mono = Geist_Mono({ subsets: ['latin'], variable: '--font-mono', display: 
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: 'GTM Consultant for B2B SaaS & Fintech | GTMology', template: '%s' },
+  title: { default: 'GTM Consultant for B2B SaaS & Fintech | Dominize Consultancy', template: '%s' },
   description: 'Turn your product into a GTM engine. ICP, positioning, demand and AI automation for B2B SaaS & fintech, connected into one system. Book a GTM Diagnostic.',
-  applicationName: 'GTMology',
+  applicationName: 'Dominize Consultancy',
   authors: [{ name: 'Manika Gupta', url: `${SITE.url}/about` }],
   creator: 'Manika Gupta',
-  openGraph: { type: 'website', siteName: 'GTMology', locale: 'en_US', url: SITE.url},
+  openGraph: { type: 'website', siteName: 'Dominize Consultancy', locale: 'en_US', url: SITE.url},
   twitter: { card: 'summary_large_image' },
   alternates: { canonical: '/' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
@@ -35,7 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
         <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
-        <link rel="alternate" type="application/json" title="GTMology services catalog" href="/services.json" />
+        <link rel="alternate" type="application/json" title="Dominize services catalog" href="/services.json" />
       </head>
       <body>
         <a href="#main" className="skip">Skip to content</a>

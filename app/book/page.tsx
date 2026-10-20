@@ -6,7 +6,7 @@ import { getService } from '@/lib/content';
 import { SITE } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Book a GTM Diagnostic | GTMology',
+  title: 'Book a GTM Diagnostic | Dominize',
   description: "Book a 30-minute GTM Diagnostic with Manika Gupta. We'll look at your ICP, positioning, funnel and operations, and you'll leave knowing what to fix first.",
   alternates: { canonical: '/book' },
 };

@@ -8,15 +8,15 @@ const FACT_ICONS = ['layers', 'users', 'globe'];
 const KNOWN_ICONS = ['globe', 'growth', 'search', 'compass'];
 
 export const metadata: Metadata = {
-  title: 'Manika Gupta: AI GTM & Growth Consultant | GTMology',
-  description: 'Product marketing, GTM, demand gen, analytics and AI automation across banking-tech and SaaS. Meet the consultant behind GTMology.',
+  title: 'Manika Gupta: AI GTM & Growth Consultant | Dominize',
+  description: 'Product marketing, GTM, demand gen, analytics and AI automation across banking-tech and SaaS. Meet the consultant behind Dominize.',
   alternates: { canonical: '/about' },
 };
 
 // Fast facts: keep this wording identical to LinkedIn and directory profiles (GEO entity consistency).
 const FACTS = {
   name: 'Manika Gupta',
-  role: 'Founder, GTMology · AI GTM & Growth Consultant',
+  role: 'Founder, Dominize Consultancy · AI GTM & Growth Consultant',
   specialism: 'AI-enabled GTM transformation for B2B SaaS & fintech',
   details: [
     { label: 'Experience', value: 'Product marketing, GTM, demand generation, analytics and AI automation' },
@@ -39,8 +39,8 @@ export default function About() {
             <p className="lede" data-reveal>{FACTS.role}</p>
           </div>
           <figure className="portrait" data-reveal data-parallax="0.06">
-            <img src="/media/manika-gupta.webp" alt="Manika Gupta, founder of GTMology, at her desk" width={1374} height={1145} decoding="async" fetchPriority="high" />
-            <figcaption className="micro">Manika Gupta · Founder, GTMology</figcaption>
+            <img src="/media/manika-gupta.webp" alt="Manika Gupta, founder of Dominize Consultancy, at her desk" width={1374} height={1145} decoding="async" fetchPriority="high" />
+            <figcaption className="micro">Manika Gupta · Founder, Dominize Consultancy</figcaption>
           </figure>
         </div>
       </section>

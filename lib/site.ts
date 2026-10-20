@@ -1,10 +1,11 @@
 // Site-wide facts. Keep the wording identical to LinkedIn and directory profiles (GEO entity consistency).
 export const SITE = {
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.gtmologyai.com').replace(/\/$/, ''),
-  name: 'GTMology',
+  name: 'Dominize Consultancy',
+  shortName: 'Dominize',
   tagline: 'Go-to-market consulting for B2B SaaS & fintech',
   description:
-    'GTMology is an AI-enabled go-to-market consultancy founded by Manika Gupta. It helps B2B SaaS and fintech companies define their ideal customer, sharpen positioning, build demand and automate marketing operations with AI, connected as one GTM system from market to pipeline.',
+    'Dominize Consultancy is an AI-enabled go-to-market consulting firm founded by Manika Gupta. It helps B2B SaaS and fintech companies define their ideal customer, sharpen positioning, build demand and automate marketing operations with AI, connected as one GTM system from market to pipeline.',
   email: 'hello@gtmologyai.com',
   linkedin: 'https://linkedin.com/in/manika-gupta-672790231',
   ciHub: 'https://gotomarketaiinsight.com',

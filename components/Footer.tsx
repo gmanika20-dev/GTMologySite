@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-grid">
           <div>
-            <Link href="/" className="logo"><Logo /> GTMology</Link>
+            <Link href="/" className="logo"><Logo /> Dominize</Link>
             <p className="muted" style={{ maxWidth: '38ch', fontSize: 15 }}>AI-enabled GTM transformation for B2B SaaS &amp; fintech. Clear strategy, measurable pipeline.</p>
             <Link href="/book" className="btn btn-primary btn-sm">Book a GTM Diagnostic <span className="arrow">→</span></Link>
           </div>
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="foot-base">
-          <span>© {new Date().getFullYear()} GTMology · {SITE.location} · Working globally</span>
+          <span>© {new Date().getFullYear()} Dominize Consultancy · {SITE.location} · Working globally</span>
           <span><Link href="/privacy">Privacy</Link> · <Link href="/terms">Terms</Link> · <CookieSettingsLink /> · <a href="/llms.txt">llms.txt</a> · <a href="/services.json">services.json</a></span>
         </div>
       </div>

@@ -21,7 +21,7 @@ export async function POST(req: Request) {
   const b = parsed.data;
 
   const doc = await PDFDocument.create();
-  doc.setTitle('GTMology Consulting Services Agreement'); doc.setAuthor('GTMology');
+  doc.setTitle('Dominize Consultancy Services Agreement'); doc.setAuthor('Dominize Consultancy');
   const font = await doc.embedFont(StandardFonts.Helvetica);
   const bold = await doc.embedFont(StandardFonts.HelveticaBold);
   const W = 595, H = 842, M = 56, LH = 14;
@@ -56,10 +56,10 @@ export async function POST(req: Request) {
   const services = b.formula.elements.map(getServiceBySymbol).filter(Boolean);
 
   page.drawRectangle({ x: 0, y: H - 6, width: W, height: 6, color: rgb(0.478, 0.122, 0.169) });
-  text('GTMology', { f: bold, size: 18, gap: 2 });
+  text('Dominize Consultancy', { f: bold, size: 18, gap: 2 });
   text('CONSULTING SERVICES AGREEMENT - DRAFT FOR REVIEW', { f: bold, size: 9, color: [0.4, 0.42, 0.45] });
   text(`Agreement No. ${contractId} - Date: ${today}`, { size: 9, color: [0.4, 0.42, 0.45], gap: 12 });
-  text(`Between: Manika Gupta, trading as GTMology ("Consultant"), New Delhi, India - hello@gtmologyai.com`);
+  text(`Between: Manika Gupta, trading as Dominize Consultancy ("Consultant"), New Delhi, India - hello@gtmologyai.com`);
   text(`And: ${b.company || '[Client company]'} ("Client"), represented by ${b.name || '[Client name]'}${b.role ? `, ${b.role}` : ''}${b.email ? ` - ${b.email}` : ''}`, { gap: 10 });
 
   h('1. Services');
@@ -103,7 +103,7 @@ export async function POST(req: Request) {
   for (const e of new Set(b.formula.elements)) if (MATERIALS[e]) text(`- ${MATERIALS[e]}`, { indent: 10, gap: 2 });
   y -= 18;
   if (y < 140) newPage();
-  text('For GTMology', { f: bold, gap: 26 });
+  text('For Dominize Consultancy', { f: bold, gap: 26 });
   text('Signature: ______________________     Name: Manika Gupta     Date: __________', { gap: 22 });
   text(`For ${b.company || 'the Client'}`, { f: bold, gap: 26 });
   text(`Signature: ______________________     Name: ${b.name || '__________'}     Date: __________`, { gap: 18 });
@@ -111,6 +111,6 @@ export async function POST(req: Request) {
 
   const bytes = await doc.save();
   return new Response(new Uint8Array(bytes), {
-    headers: { 'Content-Type': 'application/pdf', 'Content-Disposition': `attachment; filename="GTMology-Agreement-${contractId}.pdf"`, 'Cache-Control': 'no-store' },
+    headers: { 'Content-Type': 'application/pdf', 'Content-Disposition': `attachment; filename="Dominize-Agreement-${contractId}.pdf"`, 'Cache-Control': 'no-store' },
   });
 }

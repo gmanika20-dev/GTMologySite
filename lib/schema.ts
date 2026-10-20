@@ -11,7 +11,7 @@ export const orgGraph = () => ({
       '@type': ['Organization', 'ProfessionalService'],
       '@id': ORG_ID,
       name: SITE.name,
-      alternateName: 'GTMology AI',
+      alternateName: 'Dominize',
       url: `${SITE.url}/`,
       logo: `${SITE.url}/icon.svg`,
       description: SITE.description,

@@ -5,7 +5,7 @@ import { QUESTIONS, SYSTEMS } from '@/content/lab';
 import { score, band, buildFormulas } from '@/lib/lab-engine';
 import { getServices } from '@/lib/content';
 
-export const metadata: Metadata = { title: 'Your GTM Health Check Results | GTMology', robots: { index: false, follow: true } };
+export const metadata: Metadata = { title: 'Your GTM Health Check Results | Dominize', robots: { index: false, follow: true } };
 
 export default async function LabResult({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {
   const sp = await searchParams;

@@ -2,7 +2,7 @@
 element: { no: "01", symbol: "Dx", name: "GTM Diagnosis", group: "Strategy & Intelligence" }
 url: /services/gtm-diagnosis
 formula: Start here
-seo_title: "GTM Diagnostic & Go-to-Market Audit | GTMology"
+seo_title: "GTM Diagnostic & Go-to-Market Audit | Dominize"
 meta_description: "Find out exactly why your GTM isn't producing pipeline. A full-system audit of ICP, positioning, demand, conversion, sales enablement and ops."
 primary_keyword: GTM diagnostic
 author: Manika Gupta
@@ -59,7 +59,7 @@ Ci Competitor analysis · Au Ideal customer profile · Pa Performance analytics
 ## Key takeaways
 - Pipeline problems usually start upstream of where they show up. Diagnose all six GTM systems before changing tactics.
 - The output is a scored GTM Health Scorecard, a cause → effect map and a prioritised 90-day plan.
-- It is the recommended starting point for every other GTMology engagement.
+- It is the recommended starting point for every other Dominize engagement.
 
 ## Frequently asked questions
 ### What is a GTM diagnostic?
