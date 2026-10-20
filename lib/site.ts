@@ -4,13 +4,13 @@ export const SITE = {
   name: 'Dominize Consultancy',
   shortName: 'Dominize',
   title: 'Dominize with Manika Gupta', // website title / browser tab name
-  tagline: 'Go-to-market consulting for B2B SaaS & fintech',
+  tagline: 'Go-to-market consulting for B2B SaaS',
   description:
-    'Dominize Consultancy is an AI-enabled go-to-market consulting firm founded by Manika Gupta. It helps B2B SaaS and fintech companies define their ideal customer, sharpen positioning, build demand and automate marketing operations with AI, connected as one GTM system from market to pipeline.',
+    'Dominize Consultancy is an AI-enabled go-to-market consulting firm founded by Manika Gupta. It helps B2B SaaS companies define their ideal customer, sharpen positioning, build demand and automate marketing operations with AI, connected as one GTM system from market to pipeline.',
   email: 'hello@gtmologyai.com',
   linkedin: 'https://linkedin.com/in/manika-gupta-672790231',
   ciHub: 'https://gotomarketaiinsight.com',
-  location: 'Gurugram, India',
+  location: 'Remote, worldwide · Travel on request',
   calLink: process.env.NEXT_PUBLIC_CAL_LINK || 'manika-gupta-gtmology', // e.g. "manika-gupta/gtm-diagnostic"
 };
 

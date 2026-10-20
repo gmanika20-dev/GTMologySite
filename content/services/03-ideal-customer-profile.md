@@ -3,7 +3,7 @@ element: { no: "03", symbol: "Au", name: "Market Segmentation & ICP", group: "St
 url: /services/ideal-customer-profile
 formula: GTM Clarity Sprint
 seo_title: "Ideal Customer Profile (ICP) & Buyer Personas | Dominize"
-meta_description: "Define who to sell to, and who to stop selling to. Data-backed ICP, buying committee personas and segment priorities for B2B SaaS and fintech."
+meta_description: "Define who to sell to, and who to stop selling to. Data-backed ICP, buying committee personas and segment priorities for B2B SaaS."
 primary_keyword: ideal customer profile (ICP)
 author: Manika Gupta
 last_updated: 2026-10-13
@@ -16,7 +16,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 ## At a glance
 | | |
 |---|---|
-| **Who it's for** | SaaS and fintech companies whose leads are mixed quality, or whose sales and marketing teams disagree on who to target |
+| **Who it's for** | B2B SaaS companies whose leads are mixed quality, or whose sales and marketing teams disagree on who to target |
 | **Outcome** | An evidence-based ICP, buying-committee personas and targeting rules that sales and marketing share |
 | **Typical timeline** | 2–3 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |

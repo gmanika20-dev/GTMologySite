@@ -16,7 +16,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 ## At a glance
 | | |
 |---|---|
-| **Who it's for** | B2B SaaS and fintech founders, CMOs and revenue leaders whose pipeline is missing target and who aren't sure why |
+| **Who it's for** | B2B SaaS founders, CMOs and revenue leaders whose pipeline is missing target and who aren't sure why |
 | **Outcome** | A ranked list of the root causes behind weak pipeline, and a 90-day plan to fix them |
 | **Typical timeline** | 2 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |

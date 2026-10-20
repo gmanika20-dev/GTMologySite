@@ -18,7 +18,7 @@ related_services: [gtm-diagnosis, ideal-customer-profile, brand-positioning]
 
 **In short:** When a strong B2B product misses its pipeline targets, the cause is rarely the product or a single channel. It's usually one of six connected GTM systems: audience, positioning, demand, conversion, sales enablement, or operations. Diagnose which one is the bottleneck before you change tactics.
 
-I hear the same sentence in almost every first conversation with a SaaS or fintech leader: *"We have a good product. But…"*
+I hear the same sentence in almost every first conversation with a B2B SaaS leader: *"We have a good product. But…"*
 
 But marketing isn't generating enough qualified pipeline. But deals stall. But a competitor keeps winning. But the team is exhausted.
 
@@ -90,7 +90,7 @@ A GTM system connects product, market (ICP), message (positioning), demand gener
 Score each of the six GTM systems using evidence from your CRM, analytics, website, sales materials and competitors. Identify the weakest system, then design the smallest test that would prove the fix.
 
 ## About the author
-**Manika Gupta** is the founder of Dominize Consultancy, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
+**Manika Gupta** is the founder of Dominize Consultancy, an AI GTM and growth consultant for B2B SaaS. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
 
 ---
 **Check your GTM now.** The free GTM Scorecard asks 10 questions, scores all six areas, and shows you your biggest bottleneck in about four minutes. → [Get your free GTM Scorecard](/lab)

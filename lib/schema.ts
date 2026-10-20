@@ -17,7 +17,7 @@ export const orgGraph = () => ({
       description: SITE.description,
       founder: { '@id': PERSON_ID },
       areaServed: 'Worldwide',
-      address: { '@type': 'PostalAddress', addressLocality: 'Gurugram', addressRegion: 'Haryana', addressCountry: 'IN' },
+      address: { '@type': 'PostalAddress', addressCountry: 'IN' },
       email: SITE.email,
       sameAs: [SITE.linkedin],
       knowsAbout: ['Go-to-market strategy', 'Product marketing', 'Ideal customer profile', 'Competitive intelligence', 'B2B positioning', 'Demand generation', 'Generative engine optimization', 'Marketing analytics', 'GTM engineering', 'AI agents for marketing'],

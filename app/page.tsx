@@ -15,12 +15,12 @@ const SYMPTOMS = [
 ];
 
 const HOME_FAQS = [
-  { q: 'What is Dominize Consultancy?', a: "Dominize Consultancy is an AI-enabled go-to-market (GTM) consulting firm for B2B SaaS and fintech companies, founded by Manika Gupta. It diagnoses why a company's GTM isn't producing pipeline, then fixes the system across ICP, positioning, demand generation, conversion, sales enablement and AI automation." },
+  { q: 'What is Dominize Consultancy?', a: "Dominize Consultancy is an AI-enabled go-to-market (GTM) consulting firm for B2B SaaS companies, founded by Manika Gupta. It diagnoses why a company's GTM isn't producing pipeline, then fixes the system across ICP, positioning, demand generation, conversion, sales enablement and AI automation." },
   { q: 'What does a GTM consultant do?', a: 'A GTM consultant helps a company decide who to sell to, what to say, how to reach buyers and how to convert them into revenue. That covers ICP definition, positioning and messaging, launch planning, demand generation, sales enablement and measurement.' },
-  { q: 'Who does Dominize work with?', a: 'B2B SaaS and fintech companies from seed stage to established enterprises, especially founders, marketing leaders and product marketing teams facing unclear ICPs, me-too positioning, weak pipeline or too much manual work. Dominize also designs and builds websites for growing businesses.' },
+  { q: 'Who does Dominize work with?', a: 'B2B SaaS companies from seed stage to established enterprises, especially founders, marketing leaders and product marketing teams facing unclear ICPs, me-too positioning, weak pipeline or too much manual work. Dominize also designs and builds websites for growing businesses.' },
   { q: 'How is Dominize different from a marketing agency?', a: 'Agencies usually execute one channel. Dominize diagnoses and connects the whole GTM system, from market and message to demand, sales, data and AI, and builds the strategy, assets and automations needed to fix it.' },
   { q: 'How do I get started?', a: 'Take the free 4-minute GTM Scorecard, or book a free 30-minute Growth Strategy Call. Every engagement is scoped to your situation, and you receive a tailored proposal after the diagnostic.' },
-  { q: 'Do you work with companies outside India?', a: 'Yes. Dominize is based in Gurugram, India, and works with B2B companies globally, including the US, UK, EMEA and APAC.' },
+  { q: 'Do you work with companies worldwide?', a: 'Yes. Dominize works remotely with B2B SaaS companies anywhere in the world, including the US, UK, Europe, the Middle East and APAC. Manika is also available to travel for workshops and key meetings on request.' },
 ];
 
 const SYMPTOM_ICONS = ['target', 'megaphone', 'funnel', 'compass', 'clock'];
@@ -44,7 +44,7 @@ export default function Home() {
             <h1 className="display" data-reveal>
               <Lines text={['Your product deserves', 'a better <em>GTM engine.</em>']} />
             </h1>
-            <p className="lede" data-reveal>I help B2B SaaS and fintech companies turn market intelligence into positioning, demand and pipeline, and add AI where it makes the whole marketing system faster.</p>
+            <p className="lede" data-reveal>I help B2B SaaS companies turn market intelligence into positioning, demand and pipeline, and add AI where it makes the whole marketing system faster.</p>
             <div data-reveal>
               <div className="cta-row">
                 <Link href="/book" className="btn btn-primary">Book a Growth Strategy Call <span className="arrow">→</span></Link>

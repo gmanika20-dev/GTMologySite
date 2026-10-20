@@ -2,7 +2,7 @@
 element: { no: "02", symbol: "Ci", name: "Competitive Intelligence", group: "Strategy" }
 url: /services/competitor-analysis
 formula: GTM Clarity Sprint
-seo_title: "Competitive Intelligence for B2B SaaS & Fintech | Dominize"
+seo_title: "Competitive Intelligence for B2B SaaS | Dominize"
 meta_description: "Know who you're really competing with, where they're weak and how to win. Competitor analysis, battle cards and whitespace, powered by AI research."
 primary_keyword: competitive intelligence for B2B SaaS
 author: Manika Gupta
@@ -16,7 +16,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 ## At a glance
 | | |
 |---|---|
-| **Who it's for** | B2B SaaS and fintech teams losing deals to competitors, entering a new market, or launching a product |
+| **Who it's for** | B2B SaaS teams losing deals to competitors, entering a new market, or launching a product |
 | **Outcome** | A clear view of who you compete with, where they are weak, and battle cards that help sales win |
 | **Typical timeline** | 2–3 weeks |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |

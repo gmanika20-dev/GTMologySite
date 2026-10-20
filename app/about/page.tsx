@@ -17,11 +17,11 @@ export const metadata: Metadata = {
 const FACTS = {
   name: 'Manika Gupta',
   role: 'Founder, Dominize Consultancy · AI GTM & Growth Consultant',
-  specialism: 'AI-enabled GTM transformation for B2B SaaS & fintech',
+  specialism: 'AI-enabled GTM transformation for B2B SaaS',
   details: [
     { label: 'Experience', value: 'Product marketing, GTM, demand generation, analytics and AI automation' },
-    { label: 'Industries', value: 'B2B SaaS, banking technology & fintech, healthcare, D2C' },
-    { label: 'Based in', value: 'Gurugram (Delhi NCR), India · works globally' },
+    { label: 'Industries', value: 'B2B SaaS, banking and financial software, healthcare, D2C' },
+    { label: 'Where I work', value: 'Remotely, with clients worldwide · available to travel on request' },
   ],
 
 };

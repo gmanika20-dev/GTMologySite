@@ -19,7 +19,7 @@ const shell = (body: string) => `<!doctype html><html><body style="margin:0;back
 <div style="max-width:600px;margin:0 auto;padding:32px 24px">
 <div style="font-size:18px;font-weight:bold;margin-bottom:24px">Dominize Consultancy <span style="color:#7a1f2b">●</span></div>
 ${body}
-<p style="margin-top:32px;color:#6b7383;font-size:13px">Manika Gupta · Dominize Consultancy: AI-enabled GTM for B2B SaaS &amp; fintech<br><a href="${SITE.url}" style="color:#1f3f74">gtmologyai.com</a> · <a href="${SITE.linkedin}" style="color:#1f3f74">LinkedIn</a></p>
+<p style="margin-top:32px;color:#6b7383;font-size:13px">Manika Gupta · Dominize Consultancy: AI-enabled GTM for B2B SaaS<br><a href="${SITE.url}" style="color:#1f3f74">gtmologyai.com</a> · <a href="${SITE.linkedin}" style="color:#1f3f74">LinkedIn</a></p>
 </div></body></html>`;
 
 export type Diagnosis = { primary?: string; scores?: Record<string, number>; formula?: { name: string; elements: string[]; model: string } };

@@ -3,7 +3,7 @@ element: { no: "11", symbol: "Wb", name: "Website Design & Development", group: 
 url: /services/website-design-development
 formula: Standalone
 seo_title: "B2B Website Design & Development | Dominize"
-meta_description: "Websites built on GTM strategy, not just good looks. Positioning-led, fast, SEO-ready websites for SaaS, fintech and growing businesses."
+meta_description: "Websites built on GTM strategy, not just good looks. Positioning-led, fast, SEO-ready websites for B2B SaaS and growing businesses."
 primary_keyword: B2B website design
 author: Manika Gupta
 last_updated: 2026-10-13
@@ -16,7 +16,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 ## At a glance
 | | |
 |---|---|
-| **Who it's for** | SaaS, fintech and growing businesses that need a new website, or a site that finally converts |
+| **Who it's for** | B2B SaaS and growing businesses that need a new website, or a site that finally converts |
 | **Outcome** | A fast, search-ready website built on clear positioning and designed to turn visitors into conversations |
 | **Typical timeline** | 2–3 weeks (launch site) or 4–7 weeks (full custom site) |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |
@@ -71,7 +71,7 @@ A focused launch site typically takes two to three weeks. A full custom website 
 Clear positioning above the fold, buyer-focused messaging, proof such as results and logos, fast load times, a clear primary call to action, and content structured for both search engines and AI assistants.
 
 ### Do you only build websites for SaaS companies?
-No. B2B SaaS and fintech are the focus, but growing businesses of any kind are welcome.
+No. B2B SaaS is the focus, but growing businesses of any kind are welcome.
 
 ### Can I edit the website myself after launch?
 Yes. You get an easy-edit content system, or ask us and we'll update it.

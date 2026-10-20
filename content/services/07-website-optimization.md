@@ -3,7 +3,7 @@ element: { no: "07", symbol: "Wo", name: "Website Conversion & Search", group: "
 url: /services/website-optimization
 formula: Pipeline Growth System
 seo_title: "B2B Website Optimization: SEO, GEO & CRO | Dominize"
-meta_description: "Turn your website from a brochure into a pipeline engine. SEO, AI-search (GEO) and conversion optimization for B2B SaaS and fintech websites."
+meta_description: "Turn your website from a brochure into a pipeline engine. SEO, AI-search (GEO) and conversion optimization for B2B SaaS websites."
 primary_keyword: B2B website optimization
 author: Manika Gupta
 last_updated: 2026-10-13

@@ -33,7 +33,7 @@ export type Question = { id: string; text: string; options: Option[] };
 export const INTAKE = {
   roles: ['Founder / CEO', 'Marketing leader', 'Product marketing / GTM', 'Sales / Revenue leader', 'Other'],
   stages: ['Pre-seed / Seed', 'Series A', 'Series B+', 'Established / enterprise', 'Bootstrapped / SMB'],
-  industries: ['B2B SaaS', 'Fintech / banking-tech', 'Other B2B', 'Not B2B'],
+  industries: ['B2B SaaS', 'Financial software', 'Other B2B', 'Not B2B'],
   teamSizes: ['Just me / none', '2–5', '6–15', '16+'],
 };
 

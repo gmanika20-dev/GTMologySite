@@ -16,7 +16,7 @@ const mono = Geist_Mono({ subsets: ['latin'], variable: '--font-mono', display: 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: { default: `${SITE.title} | GTM Consulting for B2B SaaS`, template: '%s' },
-  description: 'Turn your product into a GTM engine. ICP, positioning, demand and AI automation for B2B SaaS & fintech, connected into one system. Book a Growth Strategy Call.',
+  description: 'Turn your product into a GTM engine. ICP, positioning, demand and AI automation for B2B SaaS, connected into one system. Book a Growth Strategy Call.',
   applicationName: SITE.title,
   authors: [{ name: 'Manika Gupta', url: `${SITE.url}/about` }],
   creator: 'Manika Gupta',

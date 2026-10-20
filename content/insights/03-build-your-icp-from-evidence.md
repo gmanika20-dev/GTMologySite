@@ -79,7 +79,7 @@ Review it every quarter using new closed-won and closed-lost data, and immediate
 Firmographics, situational triggers, deal behaviour (cycle length, deal size, stakeholders) and retention data for won, lost and churned accounts, plus qualitative insight from customer interviews.
 
 ## About the author
-**Manika Gupta** is the founder of Dominize Consultancy, an AI GTM and growth consultant for B2B SaaS and fintech. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
+**Manika Gupta** is the founder of Dominize Consultancy, an AI GTM and growth consultant for B2B SaaS. She works across product marketing, GTM, demand generation, analytics and AI automation, including global product launches in banking technology. She also built an AI competitive-intelligence product. [More about Manika →](/about)
 
 ---
 **Not sure your ICP is sharp enough?** The free GTM Scorecard scores your audience clarity alongside five other GTM systems in about four minutes. → [Get your free GTM Scorecard](/lab) · or explore [ICP & buyer personas](/services/ideal-customer-profile)

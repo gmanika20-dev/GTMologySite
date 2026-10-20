@@ -2,7 +2,7 @@
 element: { no: "06", symbol: "Cs", name: "Content & Thought Leadership", group: "Marketing" }
 url: /services/content-strategy
 formula: Pipeline Growth System
-seo_title: "B2B Content Strategy for SaaS & Fintech | Dominize"
+seo_title: "B2B Content Strategy for B2B SaaS | Dominize"
 meta_description: "Content that creates pipeline, not just traffic. Buyer-led topics, SEO and GEO, thought leadership and a production system built for B2B."
 primary_keyword: B2B content strategy
 author: Manika Gupta
@@ -16,7 +16,7 @@ schema: [Service, FAQPage, BreadcrumbList, Person(author)]
 ## At a glance
 | | |
 |---|---|
-| **Who it's for** | B2B SaaS and fintech teams whose content gets traffic but doesn't influence pipeline, or who are invisible in AI search |
+| **Who it's for** | B2B SaaS teams whose content gets traffic but doesn't influence pipeline, or who are invisible in AI search |
 | **Outcome** | A buyer-led content plan that is measured in pipeline and visible in both Google and AI answers |
 | **Typical timeline** | 3 weeks (strategy), then ongoing |
 | **Ways to engage** | One-time project · Monthly retainer · Annual contract |

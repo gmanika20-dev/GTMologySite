@@ -26,7 +26,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   if (!s) notFound();
   const pairs = s.pairs.map(getServiceBySymbol).filter((x): x is NonNullable<typeof x> => !!x && x.slug !== s.slug);
   const related = getInsights().filter((i) => i.relatedServices.includes(s.slug)).slice(0, 2);
-  const audience = s.glance.find((g) => g.label.startsWith('Who'))?.value ?? 'B2B SaaS and fintech companies';
+  const audience = s.glance.find((g) => g.label.startsWith('Who'))?.value ?? 'B2B SaaS companies';
   const bookHref = `/book?service=${s.slug}`;
 
   return (
