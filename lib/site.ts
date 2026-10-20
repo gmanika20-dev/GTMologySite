@@ -1,6 +1,6 @@
 // Site-wide facts. Keep the wording identical to LinkedIn and directory profiles (GEO entity consistency).
 export const SITE = {
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.gtmologyai.com').replace(/\/$/, ''),
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.dominizec.com').replace(/\/$/, ''),
   name: 'Dominize Consultancy',
   shortName: 'Dominize',
   title: 'Dominize with Manika Gupta', // website title / browser tab name

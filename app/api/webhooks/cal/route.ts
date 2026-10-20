@@ -1,5 +1,5 @@
 // Cal.com webhook (BOOKING_CREATED) → store booking + send branded thank-you + alert Manika.
-// Configure in Cal.com: Settings → Developer → Webhooks → URL https://www.gtmologyai.com/api/webhooks/cal, secret = CAL_WEBHOOK_SECRET.
+// Configure in Cal.com: Settings → Developer → Webhooks → URL https://www.dominizec.com/api/webhooks/cal, secret = CAL_WEBHOOK_SECRET.
 import { NextResponse } from 'next/server';
 import crypto from 'node:crypto';
 import { insert, upsertLead } from '@/lib/store';
