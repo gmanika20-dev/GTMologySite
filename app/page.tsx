@@ -144,7 +144,6 @@ export default function Home() {
             <span className="chapter" aria-hidden="true">02</span>
             <div className="stack">
               <h2 id="elements" className="h2" data-reveal>Every lever of growth, <em>in one partner.</em></h2>
-              <p className="lede" data-reveal>Four practice areas cover your whole go-to-market, from the customers you target to the systems that scale it.</p>
             </div>
           </div>
           <div className="practice-cards" style={{ marginTop: 32 }}>
@@ -175,8 +174,7 @@ export default function Home() {
             </div>
           </div>
           <StepsTimeline steps={STEPS} />
-          <div className="split-cta" data-reveal>
-            <p className="lede" style={{ maxWidth: '62ch' }}>Tell me what you&rsquo;re seeing. I&rsquo;ll trace each symptom to its root cause, show you which parts of your engine are failing, and recommend the plan to fix it, with a timeline, what I need from you, and what success looks like.</p>
+          <div className="cta-row" data-reveal style={{ marginTop: 32 }}>
             <Link href="/lab" className="btn btn-primary">Take the free GTM check <span className="arrow">→</span></Link>
           </div>
         </div>

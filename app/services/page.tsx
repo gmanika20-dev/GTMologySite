@@ -50,13 +50,12 @@ export default function ServicesHub() {
             <div className="start-band" data-reveal>
               <div className="stack">
                 <h2 className="h2">Start with a diagnosis, <em>not a pitch.</em></h2>
-                <p className="lede">Before we recommend anything, we find out what is really limiting your growth. Then you get a clear plan, scoped to your situation.</p>
               </div>
               <div className="start-actions">
                 <Link href="/services/gtm-diagnosis" className="card start-card feature">
                   <span className="ico-wrap"><Icon name="search" /></span>
                   <h3 className="h3">{diag.element.name}</h3>
-                  <p>{diag.inShort}</p>
+                  <p>A full review of how you find, convince and convert buyers, with a ranked list of what to fix first.</p>
                   <span className="go">See the GTM Diagnostic <span className="arrow">→</span></span>
                 </Link>
                 <Link href="/lab" className="card start-card">
@@ -78,7 +77,6 @@ export default function ServicesHub() {
               <span className="practice-no" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
               <h2 id={`${p.id}-title`} className="h2">{p.title}</h2>
               <p className="practice-promise">{p.promise}</p>
-              <p className="practice-intro">{p.intro}</p>
             </div>
             <ul className="cap-list">
               {p.capabilities.map((c) => {
@@ -105,7 +103,6 @@ export default function ServicesHub() {
       <section className="section tight">
         <div className="wrap stack">
           <h2 className="h2" data-reveal>Combine services into <em>one programme.</em></h2>
-          <p className="lede" data-reveal>Most growth problems cross more than one area. These programmes bring the right services together.</p>
           <div className="formulas packages" style={{ marginTop: 28 }}>
             {FORMULAS.map((f, i) => (
               <article key={f.name} className={`card formula${i === 1 ? ' feature' : ''}`} data-reveal>

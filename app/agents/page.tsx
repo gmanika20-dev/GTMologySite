@@ -16,7 +16,7 @@ export default function Agents() {
         <div className="wrap stack">
           <p className="eyebrow">Free tools</p>
           <h1 className="h1">AI tools for <em>GTM teams.</em></h1>
-          <p className="in-short">AI tools built by Dominize for go-to-market teams. Use them free, no Claude account needed.</p>
+          <p className="in-short">Free to use. No Claude account needed.</p>
           <div className="cards c3" style={{ marginTop: 24 }}>
             <a className="card" href={SITE.ciHub} target="_blank" rel="noopener">
               <span className="num">LIVE</span>

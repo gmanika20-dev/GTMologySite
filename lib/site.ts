@@ -40,7 +40,7 @@ export const FORMULAS = [
 // The offer, organised into practice areas. Each capability links to a service page (by slug);
 // `name` overrides the service name where the capability is a part of a broader service.
 export type Practice = {
-  id: string; group: (typeof GROUPS)[number]; icon: string; title: string; promise: string; intro: string;
+  id: string; group: (typeof GROUPS)[number]; icon: string; title: string; promise: string;
   capabilities: { slug: string; name?: string; line: string }[];
 };
 
@@ -49,7 +49,6 @@ export const PRACTICES: Practice[] = [
     id: 'strategy', group: 'Strategy', icon: 'compass',
     title: 'Customer, Product & Market Strategy',
     promise: 'Know exactly who to win, what to offer them and why they should choose you.',
-    intro: 'Growth starts with the customer. We find your most valuable segments, sharpen the value you offer them and plan how you take products to market, based on evidence, not assumptions.',
     capabilities: [
       { slug: 'ideal-customer-profile', line: 'Find the segments and buyers most likely to buy, succeed and stay, and agree on who not to target.' },
       { slug: 'competitor-analysis', line: 'Understand how competitors sell and win, and turn it into battle cards and sales plays.' },
@@ -62,7 +61,6 @@ export const PRACTICES: Practice[] = [
     id: 'marketing', group: 'Marketing', icon: 'megaphone',
     title: 'Marketing Effectiveness & Demand Generation',
     promise: 'Turn marketing spend into qualified pipeline you can measure.',
-    intro: 'We plan where your marketing budget goes, build campaigns around your buyers and make your website and content work as a pipeline engine. Then we measure what is working and move spend to it.',
     capabilities: [
       { slug: 'demand-generation', line: 'Run paid search, paid social, SEO and email as one plan aimed at pipeline, not clicks.' },
       { slug: 'content-strategy', line: 'Plan content that buyers search for, read and share with their buying team.' },
@@ -74,7 +72,6 @@ export const PRACTICES: Practice[] = [
     id: 'sales', group: 'Sales', icon: 'handshake',
     title: 'Sales Excellence',
     promise: 'Give sales the insight, tools and plays to win more of the right deals.',
-    intro: 'We connect marketing and sales around the same customer: shared definitions, a clear funnel and the enablement that helps your team win new accounts and grow existing ones.',
     capabilities: [
       { slug: 'sales-enablement', line: 'Sales plays, battle cards, pitch narratives and objection handling that reps actually use.' },
       { slug: 'customer-lifecycle-retention', name: 'Customer Lifecycle & Retention', line: 'Onboard, retain and expand customers with lifecycle journeys and cross-sell and upsell plays.' },
@@ -85,7 +82,6 @@ export const PRACTICES: Practice[] = [
     id: 'digital', group: 'Digital & AI', icon: 'bolt',
     title: 'Digital Growth, Automation & AI',
     promise: 'Scale growth with automation, AI and a website that sells.',
-    intro: 'We set up the systems behind growth: connected CRM and marketing tools, AI agents that take manual work off your team, and a fast, search-ready website. Built for your team to run.',
     capabilities: [
       { slug: 'gtm-engineering-automation', line: 'Connect your CRM, marketing tools and data so leads are routed, scored and nurtured automatically.' },
       { slug: 'ai-marketing-agents', line: 'Custom AI agents for research, content audits, reporting and sales prep, with your team in control.' },
